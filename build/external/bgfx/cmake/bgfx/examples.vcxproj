@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A2FADF43-B8AD-3929-85F3-FEFE64500DD9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\cmake\bgfx\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Sim_3D/external/bgfx/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Sim_3D -BC:/Sim_3D/build --check-stamp-file C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseArguments.cmake;C:\Sim_3D\build\CMakeFiles\cmake.verify_globs;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\fcpp.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glslang.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\tint.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\webgpu.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\bgfx.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\examples.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\shader.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryv.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shaderc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shared.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\texturev.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Sim_3D\external\bgfx\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Sim_3D/external/bgfx/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Sim_3D -BC:/Sim_3D/build --check-stamp-file C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseArguments.cmake;C:\Sim_3D\build\CMakeFiles\cmake.verify_globs;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\fcpp.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glslang.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\tint.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\webgpu.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\bgfx.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\examples.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\shader.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryv.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shaderc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shared.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\texturev.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Sim_3D\external\bgfx\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Sim_3D/external/bgfx/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Sim_3D -BC:/Sim_3D/build --check-stamp-file C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseArguments.cmake;C:\Sim_3D\build\CMakeFiles\cmake.verify_globs;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\fcpp.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glslang.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\tint.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\webgpu.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\bgfx.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\examples.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\shader.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryv.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shaderc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shared.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\texturev.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Sim_3D\external\bgfx\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Sim_3D/external/bgfx/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Sim_3D -BC:/Sim_3D/build --check-stamp-file C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseArguments.cmake;C:\Sim_3D\build\CMakeFiles\cmake.verify_globs;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\fcpp.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glslang.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\tint.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\webgpu.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\bgfx.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\examples.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\shader.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryv.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shaderc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shared.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\texturev.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Sim_3D\external\bgfx\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Sim_3D\build\ZERO_CHECK.vcxproj">
+      <Project>{C0F528A9-63B4-3CB4-AD5C-58EFB78DFDF8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-00-helloworld.vcxproj">
+      <Project>{0BF68947-B35D-38F0-9A6B-BA82868FA491}</Project>
+      <Name>example-00-helloworld</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-01-cubes.vcxproj">
+      <Project>{4567AC58-934C-3AD4-8147-1161734E4E83}</Project>
+      <Name>example-01-cubes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-02-metaballs.vcxproj">
+      <Project>{1D9B92F1-0C1C-3359-A6FF-AB5F47DA3A51}</Project>
+      <Name>example-02-metaballs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-03-raymarch.vcxproj">
+      <Project>{29CC3137-7A99-377D-93D9-52C8CF9B95EC}</Project>
+      <Name>example-03-raymarch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-04-mesh.vcxproj">
+      <Project>{56B7AEA6-EEFF-3D39-9018-F720D7779270}</Project>
+      <Name>example-04-mesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-05-instancing.vcxproj">
+      <Project>{EFD6E7EB-C364-33BD-B093-FCA48645CB3B}</Project>
+      <Name>example-05-instancing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-06-bump.vcxproj">
+      <Project>{DEAB2CE6-6925-34C5-8AFE-434A995365CC}</Project>
+      <Name>example-06-bump</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-07-callback.vcxproj">
+      <Project>{02382881-2809-39B7-9B10-189826CA4941}</Project>
+      <Name>example-07-callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-08-update.vcxproj">
+      <Project>{5F91AA52-5F58-3E8C-B036-FEA21833A95A}</Project>
+      <Name>example-08-update</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-09-hdr.vcxproj">
+      <Project>{98C49805-F7AB-3A2D-8827-8A05F63B3CCF}</Project>
+      <Name>example-09-hdr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-10-font.vcxproj">
+      <Project>{7E1FC52E-AECC-3909-AEB0-CC86994060E1}</Project>
+      <Name>example-10-font</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-11-fontsdf.vcxproj">
+      <Project>{F34D7C8A-E594-3255-8DC5-1669B964A634}</Project>
+      <Name>example-11-fontsdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-12-lod.vcxproj">
+      <Project>{70F11D07-999A-3615-9F2B-58EDDF04B857}</Project>
+      <Name>example-12-lod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-13-stencil.vcxproj">
+      <Project>{B94AB660-CC15-3A11-866E-9107888770E6}</Project>
+      <Name>example-13-stencil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-14-shadowvolumes.vcxproj">
+      <Project>{A46398BA-9DBC-336F-A818-FAD86769ECFB}</Project>
+      <Name>example-14-shadowvolumes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-15-shadowmaps-simple.vcxproj">
+      <Project>{DC349BDF-724A-3A8F-A166-0DF4F81594B8}</Project>
+      <Name>example-15-shadowmaps-simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-16-shadowmaps.vcxproj">
+      <Project>{1D1FE3FC-53A9-38B8-B9B5-4F76B07F83C7}</Project>
+      <Name>example-16-shadowmaps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-17-drawstress.vcxproj">
+      <Project>{F7D23747-AB6B-32E8-983B-B973151AB59D}</Project>
+      <Name>example-17-drawstress</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-18-ibl.vcxproj">
+      <Project>{4A7C1998-0851-31DA-97E8-BC9C371DB12F}</Project>
+      <Name>example-18-ibl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-19-oit.vcxproj">
+      <Project>{F8216BF3-202D-3B53-A082-E748C5112E5E}</Project>
+      <Name>example-19-oit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-20-nanovg.vcxproj">
+      <Project>{55B28121-EDF1-39D4-BB6A-9F8BE5DC0E22}</Project>
+      <Name>example-20-nanovg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-22-windows.vcxproj">
+      <Project>{A695D25B-CF1B-399C-A723-FCE983D0A3E9}</Project>
+      <Name>example-22-windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-23-vectordisplay.vcxproj">
+      <Project>{E94EF662-35B0-3499-8358-125BF1053D60}</Project>
+      <Name>example-23-vectordisplay</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-24-nbody.vcxproj">
+      <Project>{3ECC5926-9A2D-3C92-BD2F-3DD820D71696}</Project>
+      <Name>example-24-nbody</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-25-c99.vcxproj">
+      <Project>{876EB950-2D88-36A0-B4E3-FB2D34586FF9}</Project>
+      <Name>example-25-c99</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-26-occlusion.vcxproj">
+      <Project>{32BE0567-AEAC-3D5C-8D21-021F6EECEFCF}</Project>
+      <Name>example-26-occlusion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-27-terrain.vcxproj">
+      <Project>{B673FEE2-ADF7-360A-815D-DFF514145F7E}</Project>
+      <Name>example-27-terrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-28-wireframe.vcxproj">
+      <Project>{B0F6C9A4-2CF8-30C5-9E17-ED91346A3FFF}</Project>
+      <Name>example-28-wireframe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-29-debugdraw.vcxproj">
+      <Project>{8517FC9A-5AD2-3C68-8E1A-5D87536BADE1}</Project>
+      <Name>example-29-debugdraw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-30-picking.vcxproj">
+      <Project>{2E87FDD4-CF80-3BEB-938C-24D9FD629FD8}</Project>
+      <Name>example-30-picking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-31-rsm.vcxproj">
+      <Project>{C9796BF8-4B66-361B-9FF7-BAEF1EA6724A}</Project>
+      <Name>example-31-rsm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-32-particles.vcxproj">
+      <Project>{C4B8E543-34EB-372B-93AE-2043D6116C35}</Project>
+      <Name>example-32-particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-33-pom.vcxproj">
+      <Project>{70C46407-6045-3200-AADA-D3644D8BB440}</Project>
+      <Name>example-33-pom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-34-mvs.vcxproj">
+      <Project>{A0CE05C5-3305-3325-B3EA-A994FBA64F6A}</Project>
+      <Name>example-34-mvs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-35-dynamic.vcxproj">
+      <Project>{637DBBA9-CA11-3A86-B69C-E561E3D2CEF3}</Project>
+      <Name>example-35-dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-36-sky.vcxproj">
+      <Project>{2419DE51-5E87-3C5E-818A-E59EB36B7E63}</Project>
+      <Name>example-36-sky</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-38-bloom.vcxproj">
+      <Project>{8BFAB4C1-D4C3-3D0B-B3A2-8A8544BC3AA2}</Project>
+      <Name>example-38-bloom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-39-assao.vcxproj">
+      <Project>{9304ED60-D5BD-3F35-A0F1-FE46172D0926}</Project>
+      <Name>example-39-assao</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-40-svt.vcxproj">
+      <Project>{FCE3BDFF-4B8C-361B-AA4C-B8BD25FF23B5}</Project>
+      <Name>example-40-svt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-42-bunnylod.vcxproj">
+      <Project>{BB1655E1-985E-3287-ACE7-009A8278FD9D}</Project>
+      <Name>example-42-bunnylod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-43-denoise.vcxproj">
+      <Project>{5995222D-71F4-356E-B13C-8E910B960848}</Project>
+      <Name>example-43-denoise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-44-sss.vcxproj">
+      <Project>{5EE3F786-BB1C-383E-9119-ABAD3160CE65}</Project>
+      <Name>example-44-sss</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-45-bokeh.vcxproj">
+      <Project>{448494D2-91C4-3628-8C79-6837D5ED05D8}</Project>
+      <Name>example-45-bokeh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-46-fsr.vcxproj">
+      <Project>{3B2F86C8-A370-399E-BED6-E8535BC8294E}</Project>
+      <Name>example-46-fsr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-47-pixelformats.vcxproj">
+      <Project>{F2106793-C76B-301A-A6FC-F46F76989FCB}</Project>
+      <Name>example-47-pixelformats</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-48-drawindirect.vcxproj">
+      <Project>{84410BA3-5C0A-326B-AB4A-4F09163DB5F0}</Project>
+      <Name>example-48-drawindirect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-49-hextile.vcxproj">
+      <Project>{1B410E53-FD66-37DF-BFA8-995A93A686E8}</Project>
+      <Name>example-49-hextile</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-50-headless.vcxproj">
+      <Project>{677F6D40-DED6-3162-BDAD-EF1BD62ED059}</Project>
+      <Name>example-50-headless</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\example-51-gpufont.vcxproj">
+      <Project>{17156698-C8A7-3E7E-A160-D9E6D4359CD2}</Project>
+      <Name>example-51-gpufont</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\SIM_3D\BUILD\CMAKEFILES\A87804D26A8A9ED588CA124206399C77\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Sim_3D -BC:/Sim_3D/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Sim_3D/build/Sim_3D.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

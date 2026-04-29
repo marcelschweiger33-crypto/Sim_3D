@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\texturev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_3d.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_array.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_cube.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_cube2.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_msdf.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_sdf.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\vs_texture.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\vs_texture_cube.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\cmake\bgfx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\common.sh" />
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture.sc" />
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_3d.sc" />
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_array.sc" />
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_cube.sc" />
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_cube2.sc" />
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_msdf.sc" />
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\fs_texture_sdf.sc" />
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\makefile" />
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\varying.def.sc" />
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\vs_texture.sc" />
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\tools\texturev\vs_texture_cube.sc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C1DF3892-D4EF-3EAF-9378-430DB6C8C536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BF475F0A-26EB-3C9B-B6CB-FE14427A4219}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

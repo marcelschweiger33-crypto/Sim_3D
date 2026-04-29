@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake
+C:/Sim_3D/build/CMakeFiles/cmake.verify_globs
+C:/Sim_3D/external/bgfx/cmake/bimg/3rdparty/astc_encoder.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/3rdparty/edtaa3.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/3rdparty/etc1.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/3rdparty/etc2.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/3rdparty/iqa.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/3rdparty/libsquish.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/3rdparty/loadpng.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/3rdparty/miniz.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/3rdparty/nvtt.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/3rdparty/pvrtc.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/3rdparty/tinyexr.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/CMakeLists.txt
+C:/Sim_3D/external/bgfx/cmake/bimg/bimg.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/bimg_decode.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/bimg_encode.cmake
+C:/Sim_3D/external/bgfx/cmake/bimg/texturec.cmake

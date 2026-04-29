@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\examples\23-vectordisplay\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\examples\23-vectordisplay\vectordisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\examples\23-vectordisplay\vectordisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\bgfx\examples\23-vectordisplay\fs_vectordisplay_blit.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\bgfx\examples\23-vectordisplay\fs_vectordisplay_blur.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\bgfx\examples\23-vectordisplay\fs_vectordisplay_fb.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\bgfx\examples\23-vectordisplay\vs_vectordisplay_fb.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\cmake\bgfx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\examples\23-vectordisplay\varying.def.sc">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C1DF3892-D4EF-3EAF-9378-430DB6C8C536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{29BBE752-C16D-31AE-9761-C4315F798987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BF475F0A-26EB-3C9B-B6CB-FE14427A4219}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

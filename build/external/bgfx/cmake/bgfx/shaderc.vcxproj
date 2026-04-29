@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A28FB19B-30BD-3629-B94B-F7091B13D430}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>shaderc</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shaderc.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shaderc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shaderc.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shaderc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shaderc.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shaderc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shaderc.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shaderc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;BX_CONFIG_DEBUG=1;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;BX_CONFIG_DEBUG=1;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Sim_3D/external/bgfx/bgfx/tools/bin/windows/dxcompiler.dll C:/Sim_3D/build/external/bgfx/cmake/bgfx/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\bx\Debug\bx.lib;..\bimg\Debug\bimg.lib;Debug\fcpp.lib;Debug\glslang.lib;Debug\glsl-optimizer.lib;Debug\spirv-opt.lib;Debug\spirv-cross.lib;Debug\tint.lib;..\bx\Debug\bx.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Sim_3D/build/external/bgfx/cmake/bgfx/Debug/shaderc.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Sim_3D/build/external/bgfx/cmake/bgfx/Debug/shaderc.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BX_CONFIG_DEBUG=0;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BX_CONFIG_DEBUG=0;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Sim_3D/external/bgfx/bgfx/tools/bin/windows/dxcompiler.dll C:/Sim_3D/build/external/bgfx/cmake/bgfx/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\bx\Release\bx.lib;..\bimg\Release\bimg.lib;Release\fcpp.lib;Release\glslang.lib;Release\glsl-optimizer.lib;Release\spirv-opt.lib;Release\spirv-cross.lib;Release\tint.lib;..\bx\Release\bx.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Sim_3D/build/external/bgfx/cmake/bgfx/Release/shaderc.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Sim_3D/build/external/bgfx/cmake/bgfx/Release/shaderc.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BX_CONFIG_DEBUG=0;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BX_CONFIG_DEBUG=0;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Sim_3D/external/bgfx/bgfx/tools/bin/windows/dxcompiler.dll C:/Sim_3D/build/external/bgfx/cmake/bgfx/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\bx\MinSizeRel\bx.lib;..\bimg\MinSizeRel\bimg.lib;MinSizeRel\fcpp.lib;MinSizeRel\glslang.lib;MinSizeRel\glsl-optimizer.lib;MinSizeRel\spirv-opt.lib;MinSizeRel\spirv-cross.lib;MinSizeRel\tint.lib;..\bx\MinSizeRel\bx.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Sim_3D/build/external/bgfx/cmake/bgfx/MinSizeRel/shaderc.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Sim_3D/build/external/bgfx/cmake/bgfx/MinSizeRel/shaderc.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BX_CONFIG_DEBUG=0;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BX_CONFIG_DEBUG=0;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src;C:\Sim_3D\external\bgfx\bx\include;C:\Sim_3D\external\bgfx\bx\3rdparty;C:\Sim_3D\external\bgfx\bx\include\compat\msvc;C:\Sim_3D\external\bgfx\bimg\include;C:\Sim_3D\external\bgfx\bgfx\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\fcpp;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Public;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glslang\glslang\Include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\glsl-optimizer\src\glsl;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-tools\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\spirv-cross;C:\Sim_3D\external\bgfx\bgfx\3rdparty\webgpu\include;C:\Sim_3D\external\bgfx\bgfx\3rdparty\dawn\src\tint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Sim_3D/external/bgfx/bgfx/tools/bin/windows/dxcompiler.dll C:/Sim_3D/build/external/bgfx/cmake/bgfx/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\bx\RelWithDebInfo\bx.lib;..\bimg\RelWithDebInfo\bimg.lib;RelWithDebInfo\fcpp.lib;RelWithDebInfo\glslang.lib;RelWithDebInfo\glsl-optimizer.lib;RelWithDebInfo\spirv-opt.lib;RelWithDebInfo\spirv-cross.lib;RelWithDebInfo\tint.lib;..\bx\RelWithDebInfo\bx.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Sim_3D/build/external/bgfx/cmake/bgfx/RelWithDebInfo/shaderc.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Sim_3D/build/external/bgfx/cmake/bgfx/RelWithDebInfo/shaderc.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\cmake\bgfx\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Sim_3D/external/bgfx/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Sim_3D -BC:/Sim_3D/build --check-stamp-file C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseArguments.cmake;C:\Sim_3D\build\CMakeFiles\cmake.verify_globs;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\fcpp.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glslang.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\tint.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\webgpu.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\bgfx.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\examples.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\shader.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryv.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shaderc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shared.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\texturev.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Sim_3D\external\bgfx\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Sim_3D/external/bgfx/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Sim_3D -BC:/Sim_3D/build --check-stamp-file C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseArguments.cmake;C:\Sim_3D\build\CMakeFiles\cmake.verify_globs;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\fcpp.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glslang.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\tint.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\webgpu.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\bgfx.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\examples.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\shader.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryv.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shaderc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shared.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\texturev.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Sim_3D\external\bgfx\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Sim_3D/external/bgfx/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Sim_3D -BC:/Sim_3D/build --check-stamp-file C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseArguments.cmake;C:\Sim_3D\build\CMakeFiles\cmake.verify_globs;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\fcpp.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glslang.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\tint.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\webgpu.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\bgfx.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\examples.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\shader.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryv.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shaderc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shared.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\texturev.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Sim_3D\external\bgfx\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Sim_3D/external/bgfx/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Sim_3D -BC:/Sim_3D/build --check-stamp-file C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseArguments.cmake;C:\Sim_3D\build\CMakeFiles\cmake.verify_globs;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\fcpp.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\glslang.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\tint.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\3rdparty\webgpu.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\bgfx.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\examples.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\shader.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\geometryv.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shaderc.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\shared.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\texturev.cmake;C:\Sim_3D\external\bgfx\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Sim_3D\external\bgfx\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Sim_3D\build\external\bgfx\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\src\shader.cpp" />
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\src\shader.h" />
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\tools\shaderc\shaderc.cpp" />
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bgfx\tools\shaderc\shaderc.h" />
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\tools\shaderc\shaderc_dxil.cpp" />
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\tools\shaderc\shaderc_glsl.cpp" />
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\tools\shaderc\shaderc_hlsl.cpp" />
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\tools\shaderc\shaderc_metal.cpp" />
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\tools\shaderc\shaderc_pssl.cpp" />
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\tools\shaderc\shaderc_spirv.cpp" />
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\tools\shaderc\shaderc_wgsl.cpp" />
+    <ClCompile Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\generated\vertexlayout.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Sim_3D\build\ZERO_CHECK.vcxproj">
+      <Project>{C0F528A9-63B4-3CB4-AD5C-58EFB78DFDF8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bimg\bimg.vcxproj">
+      <Project>{20A719F8-A391-37E1-8466-74E2F388EF47}</Project>
+      <Name>bimg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bx\bx.vcxproj">
+      <Project>{AB1FD492-373B-3F8F-BE32-4D41EF3FDFAA}</Project>
+      <Name>bx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\fcpp.vcxproj">
+      <Project>{A638D0A7-179E-3F4B-B77A-D79EB6C80BFD}</Project>
+      <Name>fcpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\glsl-optimizer.vcxproj">
+      <Project>{FC5E1D05-2EA5-3DAD-97B2-1E609705C0E1}</Project>
+      <Name>glsl-optimizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\glslang.vcxproj">
+      <Project>{D65037A7-F446-31AA-A1A4-A06B3DBF04A6}</Project>
+      <Name>glslang</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\spirv-cross.vcxproj">
+      <Project>{856DF8EE-653F-32A0-9A2E-E0860A7F87AD}</Project>
+      <Name>spirv-cross</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\spirv-opt.vcxproj">
+      <Project>{D1E7981B-8282-3DC1-AA38-1BE231FF0FDF}</Project>
+      <Name>spirv-opt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Sim_3D\build\external\bgfx\cmake\bgfx\tint.vcxproj">
+      <Project>{476FBFCE-529F-346F-95EE-A2B0ECD9C74A}</Project>
+      <Name>tint</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

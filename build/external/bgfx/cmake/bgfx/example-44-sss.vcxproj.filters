@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bgfx\examples\44-sss\screen_space_shadows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\bgfx\examples\44-sss\fs_screen_space_shadows.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\bgfx\examples\44-sss\fs_sss_deferred_combine.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\bgfx\examples\44-sss\fs_sss_gbuffer.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\bgfx\examples\44-sss\fs_sss_linear_depth.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\bgfx\examples\44-sss\fs_sss_unlit.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\bgfx\examples\44-sss\vs_sss_gbuffer.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\bgfx\examples\44-sss\vs_sss_screenquad.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\cmake\bgfx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Sim_3D\external\bgfx\bgfx\examples\44-sss\varying.def.sc">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{29BBE752-C16D-31AE-9761-C4315F798987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BF475F0A-26EB-3C9B-B6CB-FE14427A4219}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5932 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "external/bgfx/cmake/bgfx/MinSizeRel/tint.lib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"add_compile_options",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"external/bgfx/cmake/bgfx/3rdparty/tint.cmake",
+			"external/bgfx/cmake/bgfx/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -std:c++20 -MD"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/Zc:preprocessor"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "TINT_BUILD_GLSL_WRITER=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TINT_BUILD_HLSL_WRITER=0"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "TINT_BUILD_IS_LINUX=0"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "TINT_BUILD_IS_MAC=0"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "TINT_BUILD_IS_WIN=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TINT_BUILD_MSL_WRITER=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TINT_BUILD_NULL_WRITER=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TINT_BUILD_SPV_READER=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TINT_BUILD_SPV_WRITER=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TINT_BUILD_WGSL_READER=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TINT_BUILD_WGSL_WRITER=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TINT_ENABLE_IR_VALIDATION=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Sim_3D/external/bgfx/bgfx/3rdparty/dawn"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Sim_3D/external/bgfx/bgfx/3rdparty/dawn/src/tint"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Sim_3D/external/bgfx/bgfx/3rdparty/dawn/third_party/protobuf/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Sim_3D/external/bgfx/bgfx/3rdparty/dawn/third_party/abseil-cpp"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Sim_3D/external/bgfx/bgfx/3rdparty/spirv-tools"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Sim_3D/external/bgfx/bgfx/3rdparty/spirv-tools/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Sim_3D/external/bgfx/bgfx/3rdparty/spirv-tools/include/generated"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Sim_3D/external/bgfx/bgfx/3rdparty/spirv-headers/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				7,
+				10,
+				12,
+				14,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				40,
+				42,
+				44,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				141,
+				146,
+				148,
+				150,
+				152,
+				154,
+				156,
+				158,
+				160,
+				162,
+				164,
+				166,
+				168,
+				170,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				190,
+				192,
+				195,
+				197,
+				199,
+				201,
+				203,
+				205,
+				207,
+				209,
+				211,
+				213,
+				215,
+				217,
+				219,
+				221,
+				223,
+				225,
+				227,
+				229,
+				231,
+				234,
+				236,
+				238,
+				240,
+				242,
+				244,
+				246,
+				248,
+				250,
+				252,
+				254,
+				256,
+				258,
+				260,
+				262,
+				264,
+				266,
+				268,
+				270,
+				273,
+				275,
+				277,
+				279,
+				281,
+				283,
+				285,
+				287,
+				289,
+				291,
+				293,
+				295,
+				297,
+				299,
+				301,
+				303,
+				305,
+				307,
+				309,
+				311,
+				313,
+				315,
+				317,
+				319,
+				321,
+				323,
+				325,
+				327,
+				329,
+				331,
+				333,
+				335,
+				337,
+				339,
+				341,
+				343,
+				345,
+				347,
+				349,
+				351,
+				353,
+				355,
+				357,
+				360,
+				362,
+				364,
+				366,
+				368,
+				370,
+				372,
+				374,
+				376,
+				378,
+				380,
+				382,
+				384,
+				386,
+				388,
+				390,
+				392,
+				394,
+				396,
+				398,
+				400,
+				402,
+				404,
+				406,
+				408,
+				410,
+				412,
+				415,
+				417,
+				419,
+				421,
+				423,
+				425,
+				427,
+				429,
+				431,
+				433,
+				435,
+				437,
+				439,
+				441,
+				443,
+				445,
+				447,
+				450,
+				452,
+				454,
+				456,
+				458,
+				460,
+				462,
+				464,
+				466,
+				468,
+				470,
+				472,
+				474,
+				476,
+				478,
+				480,
+				482,
+				484,
+				486,
+				488,
+				490,
+				492,
+				494,
+				496,
+				498,
+				500,
+				502,
+				504,
+				506,
+				508,
+				510,
+				512,
+				514,
+				516,
+				518,
+				520,
+				522,
+				524,
+				526,
+				528,
+				530,
+				532,
+				534,
+				536,
+				538,
+				540,
+				542,
+				544,
+				546,
+				548,
+				550,
+				552,
+				555,
+				557,
+				559,
+				561,
+				563,
+				565,
+				567,
+				569,
+				571,
+				573,
+				575,
+				577,
+				579,
+				581,
+				583,
+				587,
+				590,
+				592,
+				594,
+				596,
+				598,
+				600,
+				602,
+				604,
+				606,
+				608,
+				610,
+				613,
+				615,
+				617,
+				620,
+				622,
+				624,
+				626,
+				628,
+				630,
+				632,
+				634,
+				636,
+				638,
+				640,
+				642,
+				644,
+				646,
+				648,
+				650,
+				652,
+				654,
+				656,
+				658,
+				660,
+				662,
+				664,
+				666,
+				668,
+				670,
+				672,
+				674,
+				676,
+				678,
+				680,
+				682,
+				684,
+				686,
+				688,
+				690,
+				692,
+				696,
+				698,
+				700,
+				702,
+				705,
+				707,
+				709,
+				711,
+				713,
+				715,
+				717,
+				719,
+				721,
+				723,
+				725,
+				727,
+				729,
+				731,
+				735,
+				739,
+				754,
+				756,
+				758,
+				760,
+				762,
+				769,
+				774,
+				780,
+				781,
+				783,
+				785,
+				788,
+				791,
+				793,
+				795,
+				797,
+				802,
+				804,
+				806,
+				808,
+				810,
+				812,
+				814,
+				815,
+				818,
+				820
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx"
+	},
+	"id" : "tint::@cb45d42a8ebc12a1f1e3",
+	"name" : "tint",
+	"nameOnDisk" : "tint.lib",
+	"paths" : 
+	{
+		"build" : "external/bgfx/cmake/bgfx",
+		"source" : "external/bgfx/cmake/bgfx"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				11,
+				13,
+				15,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				37,
+				38,
+				39,
+				41,
+				43,
+				45,
+				46,
+				47,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				132,
+				134,
+				136,
+				138,
+				140,
+				142,
+				143,
+				144,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				159,
+				161,
+				163,
+				165,
+				167,
+				169,
+				171,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183,
+				185,
+				187,
+				189,
+				191,
+				193,
+				194,
+				196,
+				198,
+				200,
+				202,
+				204,
+				206,
+				208,
+				210,
+				212,
+				214,
+				216,
+				218,
+				220,
+				222,
+				224,
+				226,
+				228,
+				230,
+				232,
+				233,
+				235,
+				237,
+				239,
+				241,
+				243,
+				245,
+				247,
+				249,
+				251,
+				253,
+				255,
+				257,
+				259,
+				261,
+				263,
+				265,
+				267,
+				269,
+				271,
+				272,
+				274,
+				276,
+				278,
+				280,
+				282,
+				284,
+				286,
+				288,
+				290,
+				292,
+				294,
+				296,
+				298,
+				300,
+				302,
+				304,
+				306,
+				308,
+				310,
+				312,
+				314,
+				316,
+				318,
+				320,
+				322,
+				324,
+				326,
+				328,
+				330,
+				332,
+				334,
+				336,
+				338,
+				340,
+				342,
+				344,
+				346,
+				348,
+				350,
+				352,
+				354,
+				356,
+				358,
+				359,
+				361,
+				363,
+				365,
+				367,
+				369,
+				371,
+				373,
+				375,
+				377,
+				379,
+				381,
+				383,
+				385,
+				387,
+				389,
+				391,
+				393,
+				395,
+				397,
+				399,
+				401,
+				403,
+				405,
+				407,
+				409,
+				411,
+				413,
+				414,
+				416,
+				418,
+				420,
+				422,
+				424,
+				426,
+				428,
+				430,
+				432,
+				434,
+				436,
+				438,
+				440,
+				442,
+				444,
+				446,
+				448,
+				449,
+				451,
+				453,
+				455,
+				457,
+				459,
+				461,
+				463,
+				465,
+				467,
+				469,
+				471,
+				473,
+				475,
+				477,
+				479,
+				481,
+				483,
+				485,
+				487,
+				489,
+				491,
+				493,
+				495,
+				497,
+				499,
+				501,
+				503,
+				505,
+				507,
+				509,
+				511,
+				513,
+				515,
+				517,
+				519,
+				521,
+				523,
+				525,
+				527,
+				529,
+				531,
+				533,
+				535,
+				537,
+				539,
+				541,
+				543,
+				545,
+				547,
+				549,
+				551,
+				553,
+				554,
+				556,
+				558,
+				560,
+				562,
+				564,
+				566,
+				568,
+				570,
+				572,
+				574,
+				576,
+				578,
+				580,
+				582,
+				584,
+				585,
+				586,
+				588,
+				589,
+				591,
+				593,
+				595,
+				597,
+				599,
+				601,
+				603,
+				605,
+				607,
+				609,
+				611,
+				612,
+				614,
+				616,
+				618,
+				619,
+				621,
+				623,
+				625,
+				627,
+				629,
+				631,
+				633,
+				635,
+				637,
+				639,
+				641,
+				643,
+				645,
+				647,
+				649,
+				651,
+				653,
+				655,
+				657,
+				659,
+				661,
+				663,
+				665,
+				667,
+				669,
+				671,
+				673,
+				675,
+				677,
+				679,
+				681,
+				683,
+				685,
+				687,
+				689,
+				691,
+				693,
+				694,
+				695,
+				697,
+				699,
+				701,
+				703,
+				704,
+				706,
+				708,
+				710,
+				712,
+				714,
+				716,
+				718,
+				720,
+				722,
+				724,
+				726,
+				728,
+				730,
+				732,
+				733,
+				734,
+				736,
+				737,
+				738,
+				740,
+				741,
+				742,
+				743,
+				744,
+				745,
+				746,
+				747,
+				748,
+				749,
+				750,
+				751,
+				752,
+				753,
+				755,
+				757,
+				759,
+				761,
+				763,
+				764,
+				765,
+				766,
+				767,
+				768,
+				770,
+				771,
+				772,
+				773,
+				775,
+				776,
+				777,
+				778,
+				779,
+				782,
+				784,
+				786,
+				787,
+				789,
+				790,
+				792,
+				794,
+				796,
+				798,
+				799,
+				800,
+				801,
+				803,
+				805,
+				807,
+				809,
+				811,
+				813,
+				816,
+				817,
+				819,
+				821
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				7,
+				10,
+				12,
+				14,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				40,
+				42,
+				44,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				141,
+				146,
+				148,
+				150,
+				152,
+				154,
+				156,
+				158,
+				160,
+				162,
+				164,
+				166,
+				168,
+				170,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				190,
+				192,
+				195,
+				197,
+				199,
+				201,
+				203,
+				205,
+				207,
+				209,
+				211,
+				213,
+				215,
+				217,
+				219,
+				221,
+				223,
+				225,
+				227,
+				229,
+				231,
+				234,
+				236,
+				238,
+				240,
+				242,
+				244,
+				246,
+				248,
+				250,
+				252,
+				254,
+				256,
+				258,
+				260,
+				262,
+				264,
+				266,
+				268,
+				270,
+				273,
+				275,
+				277,
+				279,
+				281,
+				283,
+				285,
+				287,
+				289,
+				291,
+				293,
+				295,
+				297,
+				299,
+				301,
+				303,
+				305,
+				307,
+				309,
+				311,
+				313,
+				315,
+				317,
+				319,
+				321,
+				323,
+				325,
+				327,
+				329,
+				331,
+				333,
+				335,
+				337,
+				339,
+				341,
+				343,
+				345,
+				347,
+				349,
+				351,
+				353,
+				355,
+				357,
+				360,
+				362,
+				364,
+				366,
+				368,
+				370,
+				372,
+				374,
+				376,
+				378,
+				380,
+				382,
+				384,
+				386,
+				388,
+				390,
+				392,
+				394,
+				396,
+				398,
+				400,
+				402,
+				404,
+				406,
+				408,
+				410,
+				412,
+				415,
+				417,
+				419,
+				421,
+				423,
+				425,
+				427,
+				429,
+				431,
+				433,
+				435,
+				437,
+				439,
+				441,
+				443,
+				445,
+				447,
+				450,
+				452,
+				454,
+				456,
+				458,
+				460,
+				462,
+				464,
+				466,
+				468,
+				470,
+				472,
+				474,
+				476,
+				478,
+				480,
+				482,
+				484,
+				486,
+				488,
+				490,
+				492,
+				494,
+				496,
+				498,
+				500,
+				502,
+				504,
+				506,
+				508,
+				510,
+				512,
+				514,
+				516,
+				518,
+				520,
+				522,
+				524,
+				526,
+				528,
+				530,
+				532,
+				534,
+				536,
+				538,
+				540,
+				542,
+				544,
+				546,
+				548,
+				550,
+				552,
+				555,
+				557,
+				559,
+				561,
+				563,
+				565,
+				567,
+				569,
+				571,
+				573,
+				575,
+				577,
+				579,
+				581,
+				583,
+				587,
+				590,
+				592,
+				594,
+				596,
+				598,
+				600,
+				602,
+				604,
+				606,
+				608,
+				610,
+				613,
+				615,
+				617,
+				620,
+				622,
+				624,
+				626,
+				628,
+				630,
+				632,
+				634,
+				636,
+				638,
+				640,
+				642,
+				644,
+				646,
+				648,
+				650,
+				652,
+				654,
+				656,
+				658,
+				660,
+				662,
+				664,
+				666,
+				668,
+				670,
+				672,
+				674,
+				676,
+				678,
+				680,
+				682,
+				684,
+				686,
+				688,
+				690,
+				692,
+				696,
+				698,
+				700,
+				702,
+				705,
+				707,
+				709,
+				711,
+				713,
+				715,
+				717,
+				719,
+				721,
+				723,
+				725,
+				727,
+				729,
+				731,
+				735,
+				739,
+				754,
+				756,
+				758,
+				760,
+				762,
+				769,
+				774,
+				780,
+				781,
+				783,
+				785,
+				788,
+				791,
+				793,
+				795,
+				797,
+				802,
+				804,
+				806,
+				808,
+				810,
+				812,
+				814,
+				815,
+				818,
+				820
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/common/binding_point.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/common/bindings.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/common/override_id.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/common/resource_table_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/common/resource_type.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/common/subgroup_matrix.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/common/substitute_overrides_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/common/vertex_pulling_config.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/common/vertex_pulling_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/common/workgroup_info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/helpers/generate_bindings.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/helpers/generate_bindings.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/tint.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/api/tint.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/binary_op.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/binary_op.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/clone_context.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/composite.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/composite.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/eval.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/eval.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/invalid.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/invalid.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/manager.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/manager.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/node.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/node.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/scalar.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/scalar.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/splat.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/splat.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/string.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/string.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/value.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/constant/value.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/enums.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/enums.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/evaluation_stage.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/fluent_types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/interpolation.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/intrinsic/ctor_conv.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/intrinsic/ctor_conv.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/intrinsic/data.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/intrinsic/dialect.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/intrinsic/table.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/intrinsic/table.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/intrinsic/table_data.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/intrinsic/type_matchers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/io_attributes.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/access.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/access.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/analysis/for_loop_analysis.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/analysis/for_loop_analysis.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/analysis/integer_range_analysis.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/analysis/integer_range_analysis.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/analysis/loop_analysis.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/analysis/loop_analysis.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/analysis/subgroup_matrix.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/analysis/subgroup_matrix.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/binary.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/binary.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/bitcast.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/bitcast.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/block.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/block.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/block_param.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/block_param.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/break_if.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/break_if.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/builder.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/builder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/builtin_call.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/builtin_call.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/call.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/call.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/clone_context.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/clone_context.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/const_param_validator.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/const_param_validator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/constant.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/constant.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/constexpr_if.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/constexpr_if.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/construct.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/construct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/continue.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/continue.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/control_instruction.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/control_instruction.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/convert.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/convert.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/core_binary.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/core_binary.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/core_builtin_call.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/core_builtin_call.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/core_unary.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/core_unary.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/disassembler.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/disassembler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/discard.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/discard.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/evaluator.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/evaluator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/exit.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/exit.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/exit_if.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/exit_if.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/exit_loop.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/exit_loop.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/exit_switch.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/exit_switch.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/function.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/function.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/function_param.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/function_param.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/if.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/if.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/instruction.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/instruction.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/instruction_result.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/instruction_result.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/let.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/let.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/load.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/load.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/load_vector_element.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/load_vector_element.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/loop.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/loop.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/member_builtin_call.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/member_builtin_call.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/module.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/module.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/multi_in_block.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/multi_in_block.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/next_iteration.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/next_iteration.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/operand_instruction.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/operand_instruction.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/override.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/override.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/phony.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/phony.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/referenced_functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/referenced_module_decls.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/referenced_module_vars.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/reflection.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/reflection.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/return.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/return.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/store.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/store.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/store_vector_element.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/store_vector_element.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/switch.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/switch.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/swizzle.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/swizzle.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/terminate_invocation.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/terminate_invocation.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/terminator.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/terminator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/array_length_from_immediate.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/array_length_from_immediate.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/array_length_from_uniform.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/array_length_from_uniform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/bgra8unorm_polyfill.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/bgra8unorm_polyfill.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/binary_polyfill.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/binary_polyfill.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/binding_remapper.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/binding_remapper.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/block_decorated_structs.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/block_decorated_structs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/builtin_polyfill.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/builtin_polyfill.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/builtin_scalarize.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/builtin_scalarize.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/change_immediate_to_uniform.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/change_immediate_to_uniform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/combine_access_instructions.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/combine_access_instructions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/conversion_polyfill.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/conversion_polyfill.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/dead_code_elimination.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/dead_code_elimination.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/decompose_access.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/decompose_access.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/demote_to_helper.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/demote_to_helper.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/direct_variable_access.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/direct_variable_access.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/multiplanar_external_texture.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/multiplanar_external_texture.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/multiplanar_options.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/prepare_immediate_data.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/prepare_immediate_data.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/preserve_padding.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/preserve_padding.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/prevent_infinite_loops.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/prevent_infinite_loops.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/remove_continue_in_switch.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/remove_continue_in_switch.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/remove_terminator_args.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/remove_terminator_args.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/remove_uniform_vector_component_loads.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/remove_uniform_vector_component_loads.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/rename_conflicts.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/rename_conflicts.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/resource_table.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/resource_table.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/resource_table_helper.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/resource_table_helper.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/robustness.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/robustness.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/shader_io.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/shader_io.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/signed_integer_polyfill.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/signed_integer_polyfill.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/single_entry_point.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/single_entry_point.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/std140.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/std140.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/substitute_overrides.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/substitute_overrides.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/value_to_let.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/value_to_let.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/vectorize_scalar_matrix_constructors.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/vectorize_scalar_matrix_constructors.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/vertex_pulling.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/vertex_pulling.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/zero_init_workgroup_memory.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/transform/zero_init_workgroup_memory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/traverse.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/type/array_count.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/type/array_count.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/unary.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/unary.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/unreachable.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/unreachable.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/unused.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/unused.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/user_call.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/user_call.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/validator.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/validator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/value.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/value.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/var.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/ir/var.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/number.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/number.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/abstract_float.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/abstract_float.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/abstract_int.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/abstract_int.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/abstract_numeric.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/abstract_numeric.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/array.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/array.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/array_count.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/array_count.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/atomic.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/atomic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/binding_array.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/binding_array.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/bool.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/bool.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/buffer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/buffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/builtin_structs.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/builtin_structs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/clone_context.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/depth_multisampled_texture.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/depth_multisampled_texture.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/depth_texture.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/depth_texture.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/external_texture.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/external_texture.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/f16.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/f16.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/f32.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/f32.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/function.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/function.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/i32.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/i32.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/i8.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/i8.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/input_attachment.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/input_attachment.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/invalid.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/invalid.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/manager.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/manager.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/matrix.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/matrix.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/memory_view.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/memory_view.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/multisampled_texture.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/multisampled_texture.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/node.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/node.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/numeric_scalar.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/numeric_scalar.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/pointer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/pointer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/reference.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/reference.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/resource_table.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/resource_table.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/resource_type.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/resource_type.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/sampled_texture.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/sampled_texture.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/sampler.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/sampler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/sampler_kind.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/sampler_kind.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/scalar.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/scalar.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/storage_texture.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/storage_texture.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/string.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/string.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/struct.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/subgroup_matrix.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/subgroup_matrix.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/swizzle_view.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/swizzle_view.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/texel_buffer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/texel_buffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/texture.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/texture.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/texture_dimension.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/texture_dimension.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/type.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/type.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/u16.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/u16.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/u32.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/u32.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/u64.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/u64.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/u8.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/u8.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/unique_node.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/unique_node.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/vector.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/vector.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/void.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/type/void.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/unary_op.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/core/unary_op.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/builtin_fn.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/builtin_fn.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/intrinsic/data.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/intrinsic/dialect.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/intrinsic/type_matchers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/ir/binary.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/ir/binary.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/ir/builtin_call.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/ir/builtin_call.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/ir/copy_logical.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/ir/copy_logical.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/ir/literal_operand.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/ir/literal_operand.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/common/common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/common/options.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/atomics.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/atomics.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/builtins.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/builtins.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/decompose_strided_array.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/decompose_strided_array.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/decompose_strided_matrix.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/decompose_strided_matrix.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/lower.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/lower.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/shader_io.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/shader_io.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/texture.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/texture.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/transpose_row_major.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/transpose_row_major.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/vector_element_pointer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/lower/vector_element_pointer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/parser/parser.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/parser/parser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/reader.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/reader/reader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/type/explicit_layout_array.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/type/explicit_layout_array.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/type/image.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/type/image.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/type/sampled_image.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/type/sampled_image.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/validate/validate.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/validate/validate.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/analysis/relaxed_precision_decorations.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/analysis/relaxed_precision_decorations.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/binary_writer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/binary_writer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/function.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/function.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/instruction.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/instruction.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/module.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/module.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/operand.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/operand.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/option_helper.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/option_helpers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/options.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/output.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/common/output.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/printer/printer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/printer/printer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/builtin_polyfill.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/builtin_polyfill.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/case_switch_to_if_else.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/case_switch_to_if_else.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/expand_implicit_splats.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/expand_implicit_splats.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/fork_explicit_layout_types.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/fork_explicit_layout_types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/handle_matrix_arithmetic.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/handle_matrix_arithmetic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/keep_binding_array_as_pointer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/keep_binding_array_as_pointer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/merge_return.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/merge_return.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/pass_matrix_by_pointer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/pass_matrix_by_pointer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/raise.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/raise.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/remove_unreachable_in_loop_continuing.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/remove_unreachable_in_loop_continuing.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/resource_table_helper.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/resource_table_helper.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/shader_io.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/shader_io.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/unary_polyfill.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/unary_polyfill.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/var_for_dynamic_index.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/raise/var_for_dynamic_index.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/writer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/spirv/writer/writer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/allowed_features.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/accessor_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/accessor_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/alias.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/alias.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/assignment_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/assignment_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/binary_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/binary_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/binding_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/binding_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/blend_src_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/blend_src_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/block_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/block_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/bool_literal_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/bool_literal_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/break_if_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/break_if_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/break_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/break_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/builder.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/builder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/builtin_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/builtin_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/call_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/call_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/call_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/call_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/case_selector.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/case_selector.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/case_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/case_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/color_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/color_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/compound_assignment_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/compound_assignment_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/const.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/const.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/const_assert.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/const_assert.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/continue_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/continue_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/diagnostic_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/diagnostic_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/diagnostic_control.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/diagnostic_control.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/diagnostic_directive.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/diagnostic_directive.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/diagnostic_rule_name.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/diagnostic_rule_name.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/discard_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/discard_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/enable.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/enable.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/extension.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/extension.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/float_literal_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/float_literal_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/for_loop_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/for_loop_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/function.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/function.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/group_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/group_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/id_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/id_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/identifier.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/identifier.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/identifier_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/identifier_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/if_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/if_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/increment_decrement_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/increment_decrement_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/index_accessor_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/index_accessor_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/input_attachment_index_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/input_attachment_index_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/int_literal_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/int_literal_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/interpolate_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/interpolate_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/invariant_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/invariant_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/let.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/let.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/literal_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/literal_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/location_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/location_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/loop_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/loop_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/member_accessor_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/member_accessor_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/module.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/module.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/must_use_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/must_use_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/node.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/node.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/node_id.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/override.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/override.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/parameter.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/parameter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/phony_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/phony_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/pipeline_stage.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/pipeline_stage.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/requires.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/requires.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/return_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/return_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/stage_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/stage_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/struct.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/struct_member.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/struct_member.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/struct_member_align_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/struct_member_align_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/struct_member_size_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/struct_member_size_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/subgroup_size_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/subgroup_size_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/switch_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/switch_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/templated_identifier.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/templated_identifier.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/traverse_expressions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/type.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/type_decl.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/type_decl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/type_traits.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/unary_op_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/unary_op_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/var.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/var.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/variable.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/variable.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/variable_decl_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/variable_decl_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/while_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/while_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/workgroup_attribute.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ast/workgroup_attribute.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/enums.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/enums.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/feature_status.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/feature_status.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/inspector/entry_point.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/inspector/entry_point.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/inspector/inspector.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/inspector/inspector.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/inspector/resource_binding.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/inspector/resource_binding.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/inspector/resource_binding_info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/inspector/scalar.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/inspector/scalar.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/intrinsic/ctor_conv.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/intrinsic/ctor_conv.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/intrinsic/data.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/intrinsic/dialect.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/intrinsic/type_matchers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ir/atomic_vec2u_to_from_u64.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ir/atomic_vec2u_to_from_u64.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ir/builtin_call.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ir/builtin_call.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ir/unary.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/ir/unary.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/program/program.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/program/program.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/program/program_builder.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/program/program_builder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/reserved_words.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/reserved_words.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/dependency_graph.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/dependency_graph.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/incomplete_type.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/incomplete_type.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/resolve.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/resolve.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/resolver.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/resolver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/sem_helper.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/sem_helper.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/uniformity.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/uniformity.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/unresolved_identifier.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/unresolved_identifier.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/validator.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/resolver/validator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/accessor_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/accessor_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/array.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/array.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/array_count.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/array_count.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/behavior.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/behavior.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/block_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/block_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/break_if_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/break_if_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/builtin_enum_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/builtin_enum_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/builtin_fn.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/builtin_fn.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/call.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/call.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/call_target.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/call_target.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/for_loop_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/for_loop_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/function.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/function.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/function_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/function_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/if_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/if_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/index_accessor_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/index_accessor_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/info.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/load.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/load.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/loop_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/loop_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/materialize.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/materialize.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/member_accessor_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/member_accessor_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/module.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/module.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/node.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/node.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/pipeline_stage_set.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/sampler_texture_pair.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/struct.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/switch_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/switch_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/type_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/type_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/type_mappings.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/value_constructor.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/value_constructor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/value_conversion.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/value_conversion.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/value_expression.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/value_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/variable.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/variable.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/while_statement.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/sem/while_statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/ast_printer/ast_printer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/ast_printer/ast_printer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/common/common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/common/options.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/ir_to_program/ir_to_program.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/ir_to_program/ir_to_program.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/output.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/output.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/raise/ptr_to_ref.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/raise/ptr_to_ref.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/raise/raise.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/raise/raise.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/raise/value_to_let.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/raise/value_to_let.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/writer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/lang/wgsl/writer/writer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/bytes/buffer_reader.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/bytes/buffer_reader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/bytes/decoder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/bytes/endianness.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/bytes/reader.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/bytes/reader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/bytes/swap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/bitset.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/containers.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/enum_set.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/filtered_iterator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/hashmap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/hashmap_base.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/hashset.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/map.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/predicates.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/reverse.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/scope_stack.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/slice.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/transform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/unique_allocator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/unique_vector.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/containers/vector.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/diagnostic/diagnostic.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/diagnostic/diagnostic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/diagnostic/formatter.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/diagnostic/formatter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/diagnostic/source.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/diagnostic/source.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/ice/debugger.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/ice/debugger.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/ice/ice.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/ice/ice.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/internal_limits.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/macros/compiler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/macros/concat.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/macros/defer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/macros/foreach.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/macros/macros.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/macros/scoped_assignment.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/macros/static_init.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/math/crc32.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/math/hash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/math/math.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/math/math.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/memory/aligned_storage.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/memory/bitcast.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/memory/block_allocator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/memory/bump_allocator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/memory/memory.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/reflection.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/reflection.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/result.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/result.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/rtti/castable.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/rtti/castable.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/rtti/ignore.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/rtti/switch.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/rtti/switch.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/rtti/traits.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/strconv/float_to_string.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/strconv/float_to_string.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/symbol/generation_id.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/symbol/generation_id.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/symbol/symbol.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/symbol/symbol.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/symbol/symbol_table.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/symbol/symbol_table.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/system/env.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/system/executable_path.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/system/terminal.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/base64.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/base64.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/color_mode.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/color_mode.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/string.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/string.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/string_stream.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/string_stream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/styled_text.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/styled_text.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/styled_text_printer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/styled_text_printer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/styled_text_printer_ansi.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/styled_text_theme.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/styled_text_theme.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/text_style.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/unicode.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text/unicode.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text_generator/text_generator.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/3rdparty/dawn/src/tint/utils/text_generator/text_generator.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

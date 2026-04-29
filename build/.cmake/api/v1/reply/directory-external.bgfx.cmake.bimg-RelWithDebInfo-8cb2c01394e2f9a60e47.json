@@ -1,0 +1,176 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"external/bgfx/cmake/bimg/bimg.cmake",
+			"external/bgfx/cmake/bimg/CMakeLists.txt",
+			"external/bgfx/cmake/bimg/bimg_decode.cmake",
+			"external/bgfx/cmake/bimg/bimg_encode.cmake",
+			"external/bgfx/cmake/bimg/texturec.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 48,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 90,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 39,
+				"parent" : 12
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/bgfx/cmake/bimg/RelWithDebInfo/bimg.lib"
+			],
+			"targetId" : "bimg::@0f4537e078a75052a122",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"external/bgfx/bimg/include/bimg"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/bgfx/cmake/bimg/RelWithDebInfo/bimg_decode.lib"
+			],
+			"targetId" : "bimg_decode::@0f4537e078a75052a122",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/bgfx/cmake/bimg/RelWithDebInfo/bimg_encode.lib"
+			],
+			"targetId" : "bimg_encode::@0f4537e078a75052a122",
+			"targetIndex" : 11,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"external/bgfx/cmake/bimg/RelWithDebInfo/texturec.exe"
+			],
+			"targetId" : "texturec::@0f4537e078a75052a122",
+			"targetIndex" : 73,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "texturec::@0f4537e078a75052a122",
+				"index" : 73
+			},
+			"destination" : "bin",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/bgfx/cmake/bimg",
+		"source" : "external/bgfx/cmake/bimg"
+	}
+}

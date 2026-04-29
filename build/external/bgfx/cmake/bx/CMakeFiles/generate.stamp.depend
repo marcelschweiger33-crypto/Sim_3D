@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake
+C:/Sim_3D/build/CMakeFiles/cmake.verify_globs
+C:/Sim_3D/external/bgfx/cmake/bx/CMakeLists.txt
+C:/Sim_3D/external/bgfx/cmake/bx/bin2c.cmake
+C:/Sim_3D/external/bgfx/cmake/bx/bx.cmake

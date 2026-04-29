@@ -1,0 +1,217 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies",
+			"include"
+		],
+		"files" : 
+		[
+			"external/bgfx/CMakeLists.txt",
+			"external/bgfx/cmake/bimg/texturec.cmake",
+			"external/bgfx/cmake/bimg/CMakeLists.txt",
+			"external/bgfx/cmake/bx/bin2c.cmake",
+			"external/bgfx/cmake/bx/CMakeLists.txt",
+			"external/bgfx/cmake/bgfx/texturev.cmake",
+			"external/bgfx/cmake/bgfx/CMakeLists.txt",
+			"external/bgfx/cmake/bgfx/geometryv.cmake",
+			"external/bgfx/cmake/bgfx/geometryc.cmake",
+			"external/bgfx/cmake/bgfx/shaderc.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 27,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 4
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 14,
+				"parent" : 6
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 28,
+				"parent" : 8
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 16,
+				"parent" : 10
+			},
+			{
+				"file" : 5,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 29,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 20,
+				"parent" : 10
+			},
+			{
+				"file" : 7,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 29,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 19,
+				"parent" : 10
+			},
+			{
+				"file" : 8,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 33,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 30,
+				"parent" : 10
+			},
+			{
+				"file" : 9,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 71,
+				"parent" : 21
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "texturec::@0f4537e078a75052a122"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "bin2c::@2d6c036de2f139b0c8c7"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "texturev::@cb45d42a8ebc12a1f1e3"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "geometryv::@cb45d42a8ebc12a1f1e3"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "geometryc::@cb45d42a8ebc12a1f1e3"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "shaderc::@cb45d42a8ebc12a1f1e3"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx/tools"
+	},
+	"id" : "tools::@56560e7102e6d55cc240",
+	"name" : "tools",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "texturec::@0f4537e078a75052a122"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "bin2c::@2d6c036de2f139b0c8c7"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "texturev::@cb45d42a8ebc12a1f1e3"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "geometryv::@cb45d42a8ebc12a1f1e3"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "geometryc::@cb45d42a8ebc12a1f1e3"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "shaderc::@cb45d42a8ebc12a1f1e3"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/bgfx",
+		"source" : "external/bgfx"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

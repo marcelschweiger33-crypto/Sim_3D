@@ -1,0 +1,145 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"external/bgfx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 173,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/licences/bgfx",
+			"paths" : 
+			[
+				"external/bgfx/bgfx/LICENSE"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/bgfx",
+			"paths" : 
+			[
+				"external/bgfx/cmake/bgfxToolUtils.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/bgfx",
+			"paths" : 
+			[
+				"build/external/bgfx/generated/bgfxConfig.cmake",
+				"build/external/bgfx/generated/bgfxConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/bgfx",
+			"exportName" : "bgfxTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "bx::@2d6c036de2f139b0c8c7",
+					"index" : 13
+				},
+				{
+					"id" : "bin2c::@2d6c036de2f139b0c8c7",
+					"index" : 12
+				},
+				{
+					"id" : "bimg::@0f4537e078a75052a122",
+					"index" : 9
+				},
+				{
+					"id" : "bimg_decode::@0f4537e078a75052a122",
+					"index" : 10
+				},
+				{
+					"id" : "bimg_encode::@0f4537e078a75052a122",
+					"index" : 11
+				},
+				{
+					"id" : "texturec::@0f4537e078a75052a122",
+					"index" : 73
+				},
+				{
+					"id" : "bgfx::@cb45d42a8ebc12a1f1e3",
+					"index" : 8
+				},
+				{
+					"id" : "texturev::@cb45d42a8ebc12a1f1e3",
+					"index" : 74
+				},
+				{
+					"id" : "geometryc::@cb45d42a8ebc12a1f1e3",
+					"index" : 66
+				},
+				{
+					"id" : "geometryv::@cb45d42a8ebc12a1f1e3",
+					"index" : 67
+				},
+				{
+					"id" : "shaderc::@cb45d42a8ebc12a1f1e3",
+					"index" : 70
+				}
+			],
+			"paths" : 
+			[
+				"external/bgfx/CMakeFiles/Export/a1e36fc1d8adb622bc25992163d5be3d/bgfxTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/bgfx",
+		"source" : "external/bgfx"
+	}
+}

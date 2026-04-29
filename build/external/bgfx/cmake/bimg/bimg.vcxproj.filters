@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_averages_and_directions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_block_sizes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_color_quantize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_color_unquantize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_compress_symbolic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_compute_variance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_decompress_symbolic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_diagnostic_trace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_find_best_partitioning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_ideal_endpoints_and_weights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_integer_sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_mathlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_mathlib_softfloat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_partition_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_percentile_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_pick_best_endpoint_format.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_quantization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_symbolic_physical.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_weight_align.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_weight_quant_xfer_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\src\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\bgfx\bimg\src\image_gnf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_diagnostic_trace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_internal_entry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_mathlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_vecmathlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_vecmathlib_avx2_8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_vecmathlib_common_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_vecmathlib_neon_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_vecmathlib_none_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\astc-encoder\source\astcenc_vecmathlib_sse_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\include\bimg\bimg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\include\bimg\decode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Sim_3D\external\bgfx\bimg\include\bimg\encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Sim_3D\external\bgfx\cmake\bimg\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C1DF3892-D4EF-3EAF-9378-430DB6C8C536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BF475F0A-26EB-3C9B-B6CB-FE14427A4219}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
