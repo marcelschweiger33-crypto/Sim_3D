@@ -1,0 +1,10 @@
+^C:\SIM_3D\BUILD\EXTERNAL\JOLT\BUILD\CMAKEFILES\_CMAKELTOTEST-C\BIN\CMAKEFILES\ADDF877AFF0368A469AF4D6119AF8594\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Sim_3D/build/external/jolt/Build/CMakeFiles/_CMakeLTOTest-C/src -BC:/Sim_3D/build/external/jolt/Build/CMakeFiles/_CMakeLTOTest-C/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Sim_3D/build/external/jolt/Build/CMakeFiles/_CMakeLTOTest-C/bin/lto-test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

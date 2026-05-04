@@ -81,3 +81,6 @@ C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/example-49-hextile.dir
 C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/example-50-headless.dir
 C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/example-51-gpufont.dir
 C:/Sim_3D/build/external/bgfx/cmake/bgfx/CMakeFiles/INSTALL.dir
+C:/Sim_3D/build/external/jolt/Build/CMakeFiles/Jolt.dir
+C:/Sim_3D/build/external/jolt/Build/CMakeFiles/INSTALL.dir
+C:/Sim_3D/build/external/jolt/Build/CMakeFiles/ALL_BUILD.dir

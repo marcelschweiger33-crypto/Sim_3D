@@ -1,104 +1,99 @@
 #include <SDL3/SDL.h>
 #include <bgfx/bgfx.h>
 #include <bgfx/platform.h>
+#include "imgui.h"
+#include "backends/imgui_impl_sdl3.h"
+#include "imgui_impl_bgfx.h"
+#include <stdio.h>
 
-// 1. ZUERST das offizielle ImGui (Deine Version 1.92.7)
-#include <imgui.h>
-#include <imgui_impl_sdl3.h>
+int main(int argc, char** argv) {
+    // 1. SDL Initialisierung
+    if (!SDL_Init(SDL_INIT_VIDEO)) {
+        printf("SDL konnte nicht initialisiert werden: %s\n", SDL_GetError());
+        return -1;
+    }
 
-#include <iostream>
+    SDL_Window* window = SDL_CreateWindow("Sim_3D - bgfx & ImGui", 1280, 720, SDL_WINDOW_RESIZABLE);
+    if (!window) {
+        printf("Fenster konnte nicht erstellt werden: %s\n", SDL_GetError());
+        return -1;
+    }
 
-int main(int argc, char* argv[]) {
-    if (!SDL_Init(SDL_INIT_VIDEO)) return -1;
-
-    SDL_Window* window = SDL_CreateWindow("Sim_3D | Fix", 1280, 720, SDL_WINDOW_RESIZABLE);
-
-    // bgfx Initialisierung
+    // 2. bgfx Initialisierung
     bgfx::Init init;
-    init.type = bgfx::RendererType::Vulkan; 
     init.resolution.width = 1280;
     init.resolution.height = 720;
     init.resolution.reset = BGFX_RESET_VSYNC;
-
+    
+    // Plattformspezifisches Setup für bgfx an SDL3 binden
     bgfx::PlatformData pd;
-#if defined(SDL_PLATFORM_WIN32)
-    pd.nwh = (void*)SDL_GetPointerProperty(SDL_GetWindowProperties(window), SDL_PROP_WINDOW_WIN32_HWND_POINTER, NULL);
+#if defined(SDL_PLATFORM_WINDOWS)
+    pd.nwh = SDL_GetPointerProperty(SDL_GetWindowProperties(window), SDL_PROP_WINDOW_WIN32_HWND_POINTER, NULL);
 #endif
     init.platformData = pd;
     bgfx::init(init);
 
-    // ImGui Setup
+    // Hintergrundfarbe setzen (Dunkelgrau)
+    bgfx::setViewClear(0, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH, 0x303030ff, 1.0f, 0);
+    bgfx::setViewRect(0, 0, 0, 1280, 720);
+
+    // 3. ImGui Initialisierung
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
-    ImGuiIO& io = ImGui::GetIO();
+    ImGuiIO& io = ImGui::GetIO(); (void)io;
+    ImGui::StyleColorsDark();
+
+    // Backends initialisieren
     ImGui_ImplSDL3_InitForOther(window);
+    ImGui_Implbgfx_Init(255); // Nutzt View ID 255 für das ImGui-Rendering
 
-    // WICHTIG: Den Font Atlas bauen, damit 'TexIsBuilt' true wird
-    unsigned char* pixels;
-    int width, height;
-    io.Fonts->GetTexDataAsRGBA32(&pixels, &width, &height);
-    
-    // Wir vergeben eine temporäre ID, damit ImGui nicht abstürzt
-    io.Fonts->SetTexID((ImTextureID)(intptr_t)1);
-
-    // Vertex Layout für das spätere Rendering definieren
-    bgfx::VertexLayout layout;
-    layout.begin()
-        .add(bgfx::Attrib::Position,  2, bgfx::AttribType::Float)
-        .add(bgfx::Attrib::TexCoord0, 2, bgfx::AttribType::Float)
-        .add(bgfx::Attrib::Color0,    4, bgfx::AttribType::Uint8, true)
-        .end();
-
+    // 4. Main Loop
     bool quit = false;
     while (!quit) {
         SDL_Event event;
         while (SDL_PollEvent(&event)) {
             ImGui_ImplSDL3_ProcessEvent(&event);
-            if (event.type == SDL_EVENT_QUIT) quit = true;
+            if (event.type == SDL_EVENT_QUIT) {
+                quit = true;
+            }
+            if (event.type == SDL_EVENT_WINDOW_RESIZED) {
+                // Bei Größenänderung des Fensters muss bgfx aktualisiert werden
+                bgfx::reset(event.window.data1, event.window.data2, BGFX_RESET_VSYNC);
+                bgfx::setViewRect(0, 0, 0, (uint16_t)event.window.data1, (uint16_t)event.window.data2);
+            }
         }
 
-        // View 0 vorbereiten
-        bgfx::setViewClear(0, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH, 0x443355ff, 1.0f, 0);
-        bgfx::setViewRect(0, 0, 0, 1280, 720);
-        bgfx::touch(0);
-
-        // ImGui Frame starten
+        // Start ImGui Frame
+        ImGui_Implbgfx_NewFrame();
         ImGui_ImplSDL3_NewFrame();
         ImGui::NewFrame();
-        
-        ImGui::Begin("Vulkan Simulator");
-        ImGui::Text("Fehler 'bool type' behoben!");
-        if (ImGui::Button("Exit")) quit = true;
-        ImGui::End();
-        
-        ImGui::Render();
 
-        // FIX: Hier lag der Fehler (Die Funktionen geben void zurück!)
-        ImDrawData* drawData = ImGui::GetDrawData();
-        for (int i = 0; i < drawData->CmdListsCount; ++i) {
-            const ImDrawList* cmdList = drawData->CmdLists[i];
-
-            bgfx::TransientVertexBuffer tvb;
-            bgfx::TransientIndexBuffer tib;
-
-            // Wir rufen sie einzeln auf, da sie kein bool zurückgeben
-            bgfx::allocTransientVertexBuffer(&tvb, cmdList->VtxBuffer.Size, layout);
-            bgfx::allocTransientIndexBuffer(&tib, cmdList->IdxBuffer.Size);
-
-            memcpy(tvb.data, cmdList->VtxBuffer.Data, cmdList->VtxBuffer.Size * sizeof(ImDrawVert));
-            memcpy(tib.data, cmdList->IdxBuffer.Data, cmdList->IdxBuffer.Size * sizeof(ImDrawIdx));
-
-            bgfx::setVertexBuffer(0, &tvb);
-            bgfx::setIndexBuffer(&tib);
-            bgfx::submit(0, BGFX_INVALID_HANDLE); // Zeichnen (erfordert eigentlich Shader)
+        // --- DEIN GUI CODE HIER ---
+        ImGui::Begin("Sim_3D Einstellungen");
+        ImGui::Text("Willkommen in deiner 3D-Engine!");
+        ImGui::Text("SDL3 + bgfx + ImGui sind erfolgreich verknüpft.");
+        ImGui::Spacing();
+        if (ImGui::Button("Beenden")) {
+            quit = true;
         }
+        ImGui::End();
+        // --------------------------
 
+        // ImGui Render-Befehle generieren
+        ImGui::Render();
+        
+        // bgfx Frame abschicken
+        bgfx::touch(0); // Garantiert, dass der Frame gezeichnet wird, auch wenn nichts passiert
+        ImGui_Implbgfx_RenderDrawLists(ImGui::GetDrawData());
         bgfx::frame();
     }
 
+    // 5. Cleanup
+    ImGui_Implbgfx_Shutdown();
     ImGui_ImplSDL3_Shutdown();
     ImGui::DestroyContext();
     bgfx::shutdown();
+    SDL_DestroyWindow(window);
     SDL_Quit();
 
     return 0;

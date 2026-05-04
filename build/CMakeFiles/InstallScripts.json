@@ -6,7 +6,8 @@
 		"C:/Sim_3D/build/external/bgfx/cmake_install.cmake",
 		"C:/Sim_3D/build/external/bgfx/cmake/bx/cmake_install.cmake",
 		"C:/Sim_3D/build/external/bgfx/cmake/bimg/cmake_install.cmake",
-		"C:/Sim_3D/build/external/bgfx/cmake/bgfx/cmake_install.cmake"
+		"C:/Sim_3D/build/external/bgfx/cmake/bgfx/cmake_install.cmake",
+		"C:/Sim_3D/build/external/jolt/Build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

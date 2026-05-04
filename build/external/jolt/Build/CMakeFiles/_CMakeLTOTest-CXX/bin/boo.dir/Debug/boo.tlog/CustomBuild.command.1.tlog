@@ -1,0 +1,10 @@
+^C:\SIM_3D\BUILD\EXTERNAL\JOLT\BUILD\CMAKEFILES\_CMAKELTOTEST-CXX\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Sim_3D/build/external/jolt/Build/CMakeFiles/_CMakeLTOTest-CXX/src -BC:/Sim_3D/build/external/jolt/Build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-stamp-file C:/Sim_3D/build/external/jolt/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

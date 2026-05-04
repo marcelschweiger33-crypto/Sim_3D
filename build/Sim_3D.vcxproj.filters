@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Sim_3D\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Sim_3D\src\imgui_impl_bgfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Sim_3D\external\dear-imgui\imgui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -16,14 +19,25 @@
     <ClCompile Include="C:\Sim_3D\external\dear-imgui\imgui_tables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Sim_3D\external\dear-imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Sim_3D\external\dear-imgui\backends\imgui_impl_sdl3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Sim_3D\src\imgui_impl_bgfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <CustomBuild Include="C:\Sim_3D\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C1DF3892-D4EF-3EAF-9378-430DB6C8C536}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{BF475F0A-26EB-3C9B-B6CB-FE14427A4219}</UniqueIdentifier>
     </Filter>

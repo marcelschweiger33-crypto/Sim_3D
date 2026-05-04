@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Sim_3D\build\external\jolt\Build\CMakeFiles\_CMakeLTOTest-C\bin\CMakeFiles\addf877aff0368a469af4d6119af8594\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C6A192BB-271B-33F0-B722-868E3B5F6241}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

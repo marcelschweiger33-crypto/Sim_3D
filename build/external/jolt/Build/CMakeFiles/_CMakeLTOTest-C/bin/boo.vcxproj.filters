@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Sim_3D\build\external\jolt\Build\CMakeFiles\_CMakeLTOTest-C\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Sim_3D\build\external\jolt\Build\CMakeFiles\_CMakeLTOTest-C\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{61AC4B84-C3B2-3259-88FB-D1CF3FC677E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

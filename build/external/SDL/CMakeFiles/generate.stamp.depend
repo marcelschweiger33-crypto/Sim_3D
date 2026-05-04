@@ -29,12 +29,16 @@ C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckLinkerFlag.cmake
 C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceRuns.cmake
 C:/Program Files/CMake/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake
+C:/Sim_3D/.git/HEAD
+C:/Sim_3D/.git/refs/heads/main
 C:/Sim_3D/build/CMakeFiles/cmake.verify_globs
 C:/Sim_3D/build/external/SDL/CMakeFiles/SDL_build_config.h.intermediate
+C:/Sim_3D/build/external/SDL/CMakeFiles/git-data/grabRef.cmake
 C:/Sim_3D/external/SDL/CMakeLists.txt
 C:/Sim_3D/external/SDL/cmake/3rdparty.cmake
 C:/Sim_3D/external/SDL/cmake/FindLibUSB.cmake
 C:/Sim_3D/external/SDL/cmake/GetGitRevisionDescription.cmake
+C:/Sim_3D/external/SDL/cmake/GetGitRevisionDescription.cmake.in
 C:/Sim_3D/external/SDL/cmake/PreseedEmscriptenCache.cmake
 C:/Sim_3D/external/SDL/cmake/PreseedMSVCCache.cmake
 C:/Sim_3D/external/SDL/cmake/PreseedNokiaNGageCache.cmake

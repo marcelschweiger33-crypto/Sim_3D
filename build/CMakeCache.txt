@@ -113,6 +113,9 @@ BGFX_TOOLS_PREFIX:STRING=
 //Location of bimg.
 BIMG_DIR:STRING=C:/Sim_3D/external/bgfx/bimg
 
+//Compile Jolt as a shared library
+BUILD_SHARED_LIBS:BOOL=OFF
+
 //Amalgamated bx build for faster compilation
 BX_AMALGAMATED:BOOL=OFF
 
@@ -365,8 +368,74 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Enable C++ exceptions
+CPP_EXCEPTIONS_ENABLED:BOOL=OFF
+
+//Enable C++ RTTI
+CPP_RTTI_ENABLED:BOOL=OFF
+
+//Cross compile to the CROSS_COMPILE_ARM_TARGET architecture
+CROSS_COMPILE_ARM:BOOL=OFF
+
+//The target to use
+CROSS_COMPILE_ARM_TARGET:STRING=aarch64-linux-gnu
+
+//Cross platform deterministic
+CROSS_PLATFORM_DETERMINISTIC:BOOL=OFF
+
+//Enable debug renderer in Debug and Release builds
+DEBUG_RENDERER_IN_DEBUG_AND_RELEASE:BOOL=ON
+
+//Enable debug renderer in all builds
+DEBUG_RENDERER_IN_DISTRIBUTION:BOOL=OFF
+
+//Disable support for a custom memory allocator
+DISABLE_CUSTOM_ALLOCATOR:BOOL=OFF
+
+//Use double precision math
+DOUBLE_PRECISION:BOOL=OFF
+
+//Enable all warnings and warnings as errors
+ENABLE_ALL_WARNINGS:BOOL=ON
+
+//Generate installation target
+ENABLE_INSTALL:BOOL=ON
+
+//Compile the ObjectStream class and RTTI attribute information
+ENABLE_OBJECT_STREAM:BOOL=ON
+
+//Enable floating point exceptions
+FLOATING_POINT_EXCEPTIONS_ENABLED:BOOL=ON
+
+//Generate debug symbols
+GENERATE_DEBUG_SYMBOLS:BOOL=ON
+
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
+
+//Enable interprocedural optimizations
+INTERPROCEDURAL_OPTIMIZATION:BOOL=ON
+
+//Which type of debug symbols to generate
+JPH_DEBUG_SYMBOL_FORMAT:STRING=
+
+//Track Simulation Stats
+JPH_TRACK_SIMULATION_STATS:BOOL=OFF
+
+//Use external profiler when profiling is enabled
+JPH_USE_EXTERNAL_PROFILE:BOOL=OFF
+
+//Enable 64 bit WASM
+JPH_USE_WASM64:BOOL=OFF
+
+//Value Computed by CMake
+JoltPhysics_BINARY_DIR:STATIC=C:/Sim_3D/build/external/jolt/Build
+
+//Value Computed by CMake
+JoltPhysics_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+JoltPhysics_SOURCE_DIR:STATIC=C:/Sim_3D/external/jolt/Build
 
 //Extra compile options of LibUSB
 LibUSB_COMPILE_OPTIONS:STRING=
@@ -383,17 +452,26 @@ LibUSB_LINK_FLAGS:STRING=
 //Extra link libraries of LibUSB
 LibUSB_LINK_LIBRARIES:STRING=
 
+//Number of bits in ObjectLayer
+OBJECT_LAYER_BITS:BOOL=OFF
+
+//Override CMAKE_CXX_FLAGS_DEBUG/RELEASE
+OVERRIDE_CXX_FLAGS:BOOL=ON
+
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 
+//Enable the profiler in Debug and Release builds
+PROFILER_IN_DEBUG_AND_RELEASE:BOOL=ON
+
+//Enable the profiler in all builds
+PROFILER_IN_DISTRIBUTION:BOOL=OFF
+
 //Value Computed by CMake
 SDL3_BINARY_DIR:STATIC=C:/Sim_3D/build/external/SDL
-
-//The directory containing a CMake configuration file for SDL3.
-SDL3_DIR:PATH=SDL3_DIR-NOTFOUND
 
 //Value Computed by CMake
 SDL3_IS_TOP_LEVEL:STATIC=OFF
@@ -687,6 +765,51 @@ Sim_3D_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Sim_3D_SOURCE_DIR:STATIC=C:/Sim_3D
 
+//Track Broadphase Stats
+TRACK_BROADPHASE_STATS:BOOL=OFF
+
+//Track Narrowphase Stats
+TRACK_NARROWPHASE_STATS:BOOL=OFF
+
+//Enable asserts
+USE_ASSERTS:BOOL=OFF
+
+//Enable AVX
+USE_AVX:BOOL=ON
+
+//Enable AVX2
+USE_AVX2:BOOL=ON
+
+//Enable AVX512
+USE_AVX512:BOOL=OFF
+
+//Enable F16C
+USE_F16C:BOOL=ON
+
+//Enable FMADD
+USE_FMADD:BOOL=ON
+
+//Enable LZCNT
+USE_LZCNT:BOOL=ON
+
+//Enable SSE4.1
+USE_SSE4_1:BOOL=ON
+
+//Enable SSE4.2
+USE_SSE4_2:BOOL=ON
+
+//Use the static MSVC runtime library
+USE_STATIC_MSVC_RUNTIME_LIBRARY:BOOL=ON
+
+//Use std::vector instead of own Array class
+USE_STD_VECTOR:BOOL=OFF
+
+//Enable TZCNT
+USE_TZCNT:BOOL=ON
+
+//Enable SIMD for WASM
+USE_WASM_SIMD:BOOL=OFF
+
 //Value Computed by CMake
 bgfx_BINARY_DIR:STATIC=C:/Sim_3D/build/external/bgfx
 
@@ -819,7 +942,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
