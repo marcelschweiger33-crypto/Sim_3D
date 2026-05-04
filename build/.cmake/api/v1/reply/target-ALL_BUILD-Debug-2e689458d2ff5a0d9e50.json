@@ -1,0 +1,63 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"external/SDL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "SDL3_test::@325f9cd2ad4d12a63863"
+		},
+		{
+			"id" : "SDL3-shared::@325f9cd2ad4d12a63863"
+		},
+		{
+			"id" : "SDL_uclibc::@325f9cd2ad4d12a63863"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@325f9cd2ad4d12a63863",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "SDL3_test::@325f9cd2ad4d12a63863"
+		},
+		{
+			"id" : "SDL3-shared::@325f9cd2ad4d12a63863"
+		},
+		{
+			"id" : "SDL_uclibc::@325f9cd2ad4d12a63863"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/SDL",
+		"source" : "external/SDL"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

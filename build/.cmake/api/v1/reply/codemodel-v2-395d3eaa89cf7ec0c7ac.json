@@ -1,0 +1,3936 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Git::Git::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-Git__Git-Debug-8ae59bf65d5e38491c08.json",
+					"name" : "Git::Git",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Git::Git::@56560e7102e6d55cc240",
+					"jsonFile" : "target-Git__Git-Debug-8382e165f7dde46f0b6c.json",
+					"name" : "Git::Git",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-collector::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3-collector-Debug-0cd954114d3f33f10385.json",
+					"name" : "SDL3-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_Headers::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_Headers-Debug-eea9fdd8a382ed17bacb.json",
+					"name" : "SDL3_Headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test-collector::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_test-collector-Debug-10fb670c087aaadae45d.json",
+					"name" : "SDL3_test-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx-shader::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-shader-Debug-d8b2a7e9ad19c7309bd5.json",
+					"name" : "bgfx-shader",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx-vertexlayout::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-vertexlayout-Debug-6fd86fd6520e7402204c.json",
+					"name" : "bgfx-vertexlayout",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "webgpu::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-webgpu-Debug-cb71197c3f77f448a6d7.json",
+					"name" : "webgpu",
+					"projectIndex" : 2
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						8,
+						9
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					],
+					"build" : "external/SDL",
+					"jsonFile" : "directory-external.SDL-Debug-60e2544b74c73449ca19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/SDL",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : "external/bgfx",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx-Debug-f79a7038e9ad4ea65f8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/bgfx",
+					"targetIndexes" : 
+					[
+						2,
+						78
+					]
+				},
+				{
+					"build" : "external/bgfx/cmake/bx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bx-Debug-f8891a0fbbefb7926d2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bx",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "external/bgfx/cmake/bimg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bimg-Debug-b5818d1ac37febe0e461.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bimg",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						13,
+						75
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"build" : "external/bgfx/cmake/bgfx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bgfx-Debug-860c65eb59840d4fcada.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bgfx",
+					"targetIndexes" : 
+					[
+						10,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						76,
+						77
+					]
+				},
+				{
+					"build" : "external/jolt/Build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.jolt.Build-Debug-f4c99c77f9334bf294aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/jolt/Build",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Sim_3D",
+					"targetIndexes" : 
+					[
+						1,
+						8,
+						9
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "bgfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "JoltPhysics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-ALL_BUILD-Debug-2e689458d2ff5a0d9e50.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-93920bbc3d2cdc8410ee.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@56560e7102e6d55cc240",
+					"jsonFile" : "target-ALL_BUILD-Debug-81318b78ac788b57045e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c166e0c501f3cfdf331b",
+					"jsonFile" : "target-ALL_BUILD-Debug-7cc84f008621db435bb2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Jolt::@c166e0c501f3cfdf331b",
+					"jsonFile" : "target-Jolt-Debug-9e731b21e00caa8f4f84.json",
+					"name" : "Jolt",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-shared::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3-shared-Debug-d5277f384ea6f533278c.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_test-Debug-06bd718161c2cc6c9408.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL_uclibc::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL_uclibc-Debug-a9cd6f2c9c0598d89b74.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sim_3D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sim_3D-Debug-8f8f039eea49f92e32d6.json",
+					"name" : "Sim_3D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-d8c82d6b5e8f0c493e86.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-Debug-e07d957f8f280ec8f4c7.json",
+					"name" : "bgfx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg-Debug-03d448afbe9cdbeba742.json",
+					"name" : "bimg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_decode::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg_decode-Debug-b8a4d1b206c8a710cc11.json",
+					"name" : "bimg_decode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_encode::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg_encode-Debug-b6f76779a2cc6f8b28aa.json",
+					"name" : "bimg_encode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bin2c::@2d6c036de2f139b0c8c7",
+					"jsonFile" : "target-bin2c-Debug-66d9ea570c894e4f6815.json",
+					"name" : "bin2c",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bx::@2d6c036de2f139b0c8c7",
+					"jsonFile" : "target-bx-Debug-0ac8560637541e653218.json",
+					"name" : "bx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-00-helloworld::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-00-helloworld-Debug-35345cfcf7386a23a180.json",
+					"name" : "example-00-helloworld",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-01-cubes::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-01-cubes-Debug-68ce16a1476de0d25874.json",
+					"name" : "example-01-cubes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-02-metaballs::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-02-metaballs-Debug-74232789a756094cd492.json",
+					"name" : "example-02-metaballs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-03-raymarch::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-03-raymarch-Debug-fba8286c1b4ab53d1d39.json",
+					"name" : "example-03-raymarch",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-04-mesh::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-04-mesh-Debug-121fd011a41f72018070.json",
+					"name" : "example-04-mesh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-05-instancing::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-05-instancing-Debug-1c56178cfdba6e5890b3.json",
+					"name" : "example-05-instancing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-06-bump::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-06-bump-Debug-dd59cd3d2e4f92530bc1.json",
+					"name" : "example-06-bump",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-07-callback::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-07-callback-Debug-046ad4e9b2f7fa93efa8.json",
+					"name" : "example-07-callback",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-08-update::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-08-update-Debug-e6deb4e4350d0731a506.json",
+					"name" : "example-08-update",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-09-hdr::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-09-hdr-Debug-19a574c69efb52601a7d.json",
+					"name" : "example-09-hdr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-10-font::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-10-font-Debug-32f85354fe3d2a4da2c4.json",
+					"name" : "example-10-font",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-11-fontsdf::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-11-fontsdf-Debug-3b9984abd02de9141aaf.json",
+					"name" : "example-11-fontsdf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-12-lod::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-12-lod-Debug-ba64e33e7c1c4195a137.json",
+					"name" : "example-12-lod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-13-stencil::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-13-stencil-Debug-fa6531864a9ef3f8300d.json",
+					"name" : "example-13-stencil",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-14-shadowvolumes::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-14-shadowvolumes-Debug-3fee089c6730640db5be.json",
+					"name" : "example-14-shadowvolumes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-15-shadowmaps-simple::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-15-shadowmaps-simple-Debug-7168b68f09b0e56449d5.json",
+					"name" : "example-15-shadowmaps-simple",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-16-shadowmaps::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-16-shadowmaps-Debug-eee653303f06872e280c.json",
+					"name" : "example-16-shadowmaps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-17-drawstress::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-17-drawstress-Debug-02f289a0aa5b735b6866.json",
+					"name" : "example-17-drawstress",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-18-ibl::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-18-ibl-Debug-16425803123795bdb4ac.json",
+					"name" : "example-18-ibl",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-19-oit::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-19-oit-Debug-110a9b4e4374ee3a448c.json",
+					"name" : "example-19-oit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-20-nanovg::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-20-nanovg-Debug-58ef302b68067c957798.json",
+					"name" : "example-20-nanovg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-22-windows::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-22-windows-Debug-e596f8accda8360e2937.json",
+					"name" : "example-22-windows",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-23-vectordisplay::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-23-vectordisplay-Debug-d3d77c0a849aa2678931.json",
+					"name" : "example-23-vectordisplay",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-24-nbody::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-24-nbody-Debug-26d12a1d7d9c21cb27c6.json",
+					"name" : "example-24-nbody",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-25-c99::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-25-c99-Debug-b16b0e957248ac159b6a.json",
+					"name" : "example-25-c99",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-26-occlusion::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-26-occlusion-Debug-c5b4b482ce40e537301d.json",
+					"name" : "example-26-occlusion",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-27-terrain::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-27-terrain-Debug-4749c4d7248ecd1a1cd5.json",
+					"name" : "example-27-terrain",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-28-wireframe::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-28-wireframe-Debug-f8946e1d8fa7e56ff04e.json",
+					"name" : "example-28-wireframe",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-29-debugdraw::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-29-debugdraw-Debug-b06931d07eb68841998c.json",
+					"name" : "example-29-debugdraw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-30-picking::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-30-picking-Debug-67448cbefdb45997d6bd.json",
+					"name" : "example-30-picking",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-31-rsm::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-31-rsm-Debug-a90f3fa088a231dbaf74.json",
+					"name" : "example-31-rsm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-32-particles::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-32-particles-Debug-e78b50b954d7dabc3876.json",
+					"name" : "example-32-particles",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-33-pom::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-33-pom-Debug-fd62bd3a8d6a199f09c6.json",
+					"name" : "example-33-pom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-34-mvs::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-34-mvs-Debug-8cfdd2d3f2d71ab3d812.json",
+					"name" : "example-34-mvs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-35-dynamic::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-35-dynamic-Debug-b9614ebc5c399000369d.json",
+					"name" : "example-35-dynamic",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-36-sky::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-36-sky-Debug-2368923bdc24530730f1.json",
+					"name" : "example-36-sky",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-38-bloom::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-38-bloom-Debug-c0ece4c615f2ab5b5a70.json",
+					"name" : "example-38-bloom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-39-assao::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-39-assao-Debug-e9b1939c766796f4bdc4.json",
+					"name" : "example-39-assao",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-40-svt::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-40-svt-Debug-f8c35ea5c259ced04070.json",
+					"name" : "example-40-svt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-42-bunnylod::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-42-bunnylod-Debug-6326126c94478136f827.json",
+					"name" : "example-42-bunnylod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-43-denoise::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-43-denoise-Debug-6e2fa5e6f137208d8b83.json",
+					"name" : "example-43-denoise",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-44-sss::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-44-sss-Debug-abeb40d67ae1eaa02dcd.json",
+					"name" : "example-44-sss",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-45-bokeh::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-45-bokeh-Debug-64ee3041851516baca80.json",
+					"name" : "example-45-bokeh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-46-fsr::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-46-fsr-Debug-77ecb5541a8993a2fde8.json",
+					"name" : "example-46-fsr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-47-pixelformats::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-47-pixelformats-Debug-57ae78ce045f94fb32de.json",
+					"name" : "example-47-pixelformats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-48-drawindirect::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-48-drawindirect-Debug-53e06e9b28cdc132c045.json",
+					"name" : "example-48-drawindirect",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-49-hextile::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-49-hextile-Debug-5f88946d8d007dc608b6.json",
+					"name" : "example-49-hextile",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-50-headless::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-50-headless-Debug-b108a5213b7e3338d855.json",
+					"name" : "example-50-headless",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-51-gpufont::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-51-gpufont-Debug-56c092e470fc63ef0cbe.json",
+					"name" : "example-51-gpufont",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-common::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-common-Debug-a6e0fe2f3c93b854c8ce.json",
+					"name" : "example-common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "examples::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-examples-Debug-ddb001092b177dc91016.json",
+					"name" : "examples",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fcpp::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-fcpp-Debug-181df665b6c6cecb41ee.json",
+					"name" : "fcpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryc::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-geometryc-Debug-91f329aad52b92e285c1.json",
+					"name" : "geometryc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryv::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-geometryv-Debug-7cc48f553f3bc5d69efb.json",
+					"name" : "geometryv",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glsl-optimizer::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-glsl-optimizer-Debug-05cbacf8eb603a8665f2.json",
+					"name" : "glsl-optimizer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glslang::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-glslang-Debug-854aa933ab89c0340ed7.json",
+					"name" : "glslang",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "shaderc::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-shaderc-Debug-77e13290eef2c3d36553.json",
+					"name" : "shaderc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-cross::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-spirv-cross-Debug-82040a9fc766e47f92d6.json",
+					"name" : "spirv-cross",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-opt::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-spirv-opt-Debug-e9ad31cfc4eaf78914ad.json",
+					"name" : "spirv-opt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "texturec::@0f4537e078a75052a122",
+					"jsonFile" : "target-texturec-Debug-7a8557556844c70a9d60.json",
+					"name" : "texturec",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "texturev::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-texturev-Debug-2b8f77c5ceb79c2c66a3.json",
+					"name" : "texturev",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tint::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-tint-Debug-2ce9dc9280f4a470de0f.json",
+					"name" : "tint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tools::@56560e7102e6d55cc240",
+					"jsonFile" : "target-tools-Debug-4c61c93ff71a521ded45.json",
+					"name" : "tools",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Git::Git::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-Git__Git-Release-8ae59bf65d5e38491c08.json",
+					"name" : "Git::Git",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Git::Git::@56560e7102e6d55cc240",
+					"jsonFile" : "target-Git__Git-Release-8382e165f7dde46f0b6c.json",
+					"name" : "Git::Git",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-collector::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3-collector-Release-0cd954114d3f33f10385.json",
+					"name" : "SDL3-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_Headers::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_Headers-Release-eea9fdd8a382ed17bacb.json",
+					"name" : "SDL3_Headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test-collector::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_test-collector-Release-10fb670c087aaadae45d.json",
+					"name" : "SDL3_test-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx-shader::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-shader-Release-d8b2a7e9ad19c7309bd5.json",
+					"name" : "bgfx-shader",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx-vertexlayout::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-vertexlayout-Release-6fd86fd6520e7402204c.json",
+					"name" : "bgfx-vertexlayout",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "webgpu::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-webgpu-Release-cb71197c3f77f448a6d7.json",
+					"name" : "webgpu",
+					"projectIndex" : 2
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						8,
+						9
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					],
+					"build" : "external/SDL",
+					"jsonFile" : "directory-external.SDL-Release-60e2544b74c73449ca19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/SDL",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : "external/bgfx",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx-Release-f79a7038e9ad4ea65f8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/bgfx",
+					"targetIndexes" : 
+					[
+						2,
+						78
+					]
+				},
+				{
+					"build" : "external/bgfx/cmake/bx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bx-Release-5d19b18308033a4219e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bx",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "external/bgfx/cmake/bimg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bimg-Release-7a09fa3ba678b25915ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bimg",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						13,
+						75
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"build" : "external/bgfx/cmake/bgfx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bgfx-Release-19769a95e4a13ce15124.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bgfx",
+					"targetIndexes" : 
+					[
+						10,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						76,
+						77
+					]
+				},
+				{
+					"build" : "external/jolt/Build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.jolt.Build-Release-b28e3df0697614a281b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/jolt/Build",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Sim_3D",
+					"targetIndexes" : 
+					[
+						1,
+						8,
+						9
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "bgfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "JoltPhysics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-ALL_BUILD-Release-2e689458d2ff5a0d9e50.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-93920bbc3d2cdc8410ee.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@56560e7102e6d55cc240",
+					"jsonFile" : "target-ALL_BUILD-Release-81318b78ac788b57045e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c166e0c501f3cfdf331b",
+					"jsonFile" : "target-ALL_BUILD-Release-7cc84f008621db435bb2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Jolt::@c166e0c501f3cfdf331b",
+					"jsonFile" : "target-Jolt-Release-dc2d5c95da4b6e5c1b2d.json",
+					"name" : "Jolt",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-shared::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3-shared-Release-c2ef0d4a2bad46c5ad29.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_test-Release-aec2800d351d3ae87f83.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL_uclibc::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL_uclibc-Release-f89135d34888c3d0800d.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sim_3D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sim_3D-Release-219d1ac687b3a8af1804.json",
+					"name" : "Sim_3D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-d8c82d6b5e8f0c493e86.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-Release-31dc6bee04b73c0c8e1b.json",
+					"name" : "bgfx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg-Release-67ac67cf36297b0d65df.json",
+					"name" : "bimg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_decode::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg_decode-Release-7a19609abbe603ef2903.json",
+					"name" : "bimg_decode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_encode::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg_encode-Release-944445daa4ef3d79ff13.json",
+					"name" : "bimg_encode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bin2c::@2d6c036de2f139b0c8c7",
+					"jsonFile" : "target-bin2c-Release-7e6d6b5d0c4a3f9f8316.json",
+					"name" : "bin2c",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bx::@2d6c036de2f139b0c8c7",
+					"jsonFile" : "target-bx-Release-d905cbb5f9c227f11ff2.json",
+					"name" : "bx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-00-helloworld::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-00-helloworld-Release-aeb977238a4b12711d17.json",
+					"name" : "example-00-helloworld",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-01-cubes::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-01-cubes-Release-ad6a53ae6376eea87745.json",
+					"name" : "example-01-cubes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-02-metaballs::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-02-metaballs-Release-a258a46cac924e769103.json",
+					"name" : "example-02-metaballs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-03-raymarch::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-03-raymarch-Release-e3f8d75424690af7275f.json",
+					"name" : "example-03-raymarch",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-04-mesh::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-04-mesh-Release-146c903ea147a152bb2e.json",
+					"name" : "example-04-mesh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-05-instancing::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-05-instancing-Release-a12e21674b66acbd8904.json",
+					"name" : "example-05-instancing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-06-bump::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-06-bump-Release-a58ee6c65b0fa7ea5386.json",
+					"name" : "example-06-bump",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-07-callback::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-07-callback-Release-66dc218776ecc6450db2.json",
+					"name" : "example-07-callback",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-08-update::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-08-update-Release-c8548a4660f787ad0d76.json",
+					"name" : "example-08-update",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-09-hdr::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-09-hdr-Release-46eaa283885d71b1343a.json",
+					"name" : "example-09-hdr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-10-font::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-10-font-Release-e070b9cac428eed2681a.json",
+					"name" : "example-10-font",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-11-fontsdf::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-11-fontsdf-Release-bc4232876f629d20c615.json",
+					"name" : "example-11-fontsdf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-12-lod::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-12-lod-Release-9b3a216ca9228984fb1f.json",
+					"name" : "example-12-lod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-13-stencil::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-13-stencil-Release-80f185e893940c9e98bb.json",
+					"name" : "example-13-stencil",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-14-shadowvolumes::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-14-shadowvolumes-Release-825fbe311cfa67d121fd.json",
+					"name" : "example-14-shadowvolumes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-15-shadowmaps-simple::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-15-shadowmaps-simple-Release-195804a896347ba4e91c.json",
+					"name" : "example-15-shadowmaps-simple",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-16-shadowmaps::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-16-shadowmaps-Release-aa650a7561467940e815.json",
+					"name" : "example-16-shadowmaps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-17-drawstress::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-17-drawstress-Release-eb14c1d5786172762d94.json",
+					"name" : "example-17-drawstress",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-18-ibl::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-18-ibl-Release-d2f24316200e76977b0c.json",
+					"name" : "example-18-ibl",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-19-oit::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-19-oit-Release-2d28a6d3e9c4c5b33d59.json",
+					"name" : "example-19-oit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-20-nanovg::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-20-nanovg-Release-49f7b704e5d8086a4541.json",
+					"name" : "example-20-nanovg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-22-windows::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-22-windows-Release-ca1433d734a4c8ab1587.json",
+					"name" : "example-22-windows",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-23-vectordisplay::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-23-vectordisplay-Release-834755ebcae71413f1d8.json",
+					"name" : "example-23-vectordisplay",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-24-nbody::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-24-nbody-Release-b1311e45f5094ef2ce88.json",
+					"name" : "example-24-nbody",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-25-c99::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-25-c99-Release-4b8e65923924552fed5d.json",
+					"name" : "example-25-c99",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-26-occlusion::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-26-occlusion-Release-bac09ce84b9df2f41c07.json",
+					"name" : "example-26-occlusion",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-27-terrain::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-27-terrain-Release-3585ffde192cee0a34c2.json",
+					"name" : "example-27-terrain",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-28-wireframe::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-28-wireframe-Release-0e27126b85f2fc13eeb1.json",
+					"name" : "example-28-wireframe",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-29-debugdraw::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-29-debugdraw-Release-8d566eb021e1ce49b49a.json",
+					"name" : "example-29-debugdraw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-30-picking::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-30-picking-Release-768da2560a57c0111466.json",
+					"name" : "example-30-picking",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-31-rsm::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-31-rsm-Release-a4405085905d097a14c4.json",
+					"name" : "example-31-rsm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-32-particles::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-32-particles-Release-3b038750586ef7142096.json",
+					"name" : "example-32-particles",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-33-pom::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-33-pom-Release-5d1c498beb53e13e0878.json",
+					"name" : "example-33-pom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-34-mvs::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-34-mvs-Release-569538ea70e09bfd8902.json",
+					"name" : "example-34-mvs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-35-dynamic::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-35-dynamic-Release-19f37964b4466c5021d8.json",
+					"name" : "example-35-dynamic",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-36-sky::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-36-sky-Release-52e17b99d5bcd85fc7a6.json",
+					"name" : "example-36-sky",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-38-bloom::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-38-bloom-Release-9f7d7de419bfeeb329d8.json",
+					"name" : "example-38-bloom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-39-assao::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-39-assao-Release-b31f6caab0cf22397c53.json",
+					"name" : "example-39-assao",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-40-svt::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-40-svt-Release-ace3eafb68393d05a565.json",
+					"name" : "example-40-svt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-42-bunnylod::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-42-bunnylod-Release-4f7b583770988495e40e.json",
+					"name" : "example-42-bunnylod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-43-denoise::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-43-denoise-Release-6ccb70621d3eb75c3b7e.json",
+					"name" : "example-43-denoise",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-44-sss::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-44-sss-Release-b599c92a5ec5433ed0f7.json",
+					"name" : "example-44-sss",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-45-bokeh::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-45-bokeh-Release-6450a6942701b890ad2b.json",
+					"name" : "example-45-bokeh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-46-fsr::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-46-fsr-Release-bcd6116cb66430d5839b.json",
+					"name" : "example-46-fsr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-47-pixelformats::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-47-pixelformats-Release-1b60f0ee766d04a21a1d.json",
+					"name" : "example-47-pixelformats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-48-drawindirect::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-48-drawindirect-Release-b73acd46230e68529273.json",
+					"name" : "example-48-drawindirect",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-49-hextile::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-49-hextile-Release-bd60cc7de1b12bf7085f.json",
+					"name" : "example-49-hextile",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-50-headless::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-50-headless-Release-e99facb446cd35f49dbc.json",
+					"name" : "example-50-headless",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-51-gpufont::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-51-gpufont-Release-ffd396577276f40dd8cc.json",
+					"name" : "example-51-gpufont",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-common::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-common-Release-7517dc9ab78b6fb24042.json",
+					"name" : "example-common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "examples::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-examples-Release-ddb001092b177dc91016.json",
+					"name" : "examples",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fcpp::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-fcpp-Release-716183afd3b5a00f21ef.json",
+					"name" : "fcpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryc::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-geometryc-Release-1b15e466685f397871a8.json",
+					"name" : "geometryc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryv::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-geometryv-Release-766901ad52771f66cb26.json",
+					"name" : "geometryv",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glsl-optimizer::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-glsl-optimizer-Release-9b85e59dac6d7e4fe0c2.json",
+					"name" : "glsl-optimizer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glslang::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-glslang-Release-3e56dab4a1cc29ad64fd.json",
+					"name" : "glslang",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "shaderc::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-shaderc-Release-624d5274bfc3c25a1fc3.json",
+					"name" : "shaderc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-cross::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-spirv-cross-Release-a3796e7b12a256d10dbc.json",
+					"name" : "spirv-cross",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-opt::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-spirv-opt-Release-0f29bbb4e62b23727ad3.json",
+					"name" : "spirv-opt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "texturec::@0f4537e078a75052a122",
+					"jsonFile" : "target-texturec-Release-607c5ab53e36dbd136a1.json",
+					"name" : "texturec",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "texturev::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-texturev-Release-d81b226c767fb810a836.json",
+					"name" : "texturev",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tint::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-tint-Release-bf3791855d75eb1203c3.json",
+					"name" : "tint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tools::@56560e7102e6d55cc240",
+					"jsonFile" : "target-tools-Release-4c61c93ff71a521ded45.json",
+					"name" : "tools",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Git::Git::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-Git__Git-MinSizeRel-8ae59bf65d5e38491c08.json",
+					"name" : "Git::Git",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Git::Git::@56560e7102e6d55cc240",
+					"jsonFile" : "target-Git__Git-MinSizeRel-8382e165f7dde46f0b6c.json",
+					"name" : "Git::Git",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-collector::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3-collector-MinSizeRel-0cd954114d3f33f10385.json",
+					"name" : "SDL3-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_Headers::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_Headers-MinSizeRel-eea9fdd8a382ed17bacb.json",
+					"name" : "SDL3_Headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test-collector::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_test-collector-MinSizeRel-10fb670c087aaadae45d.json",
+					"name" : "SDL3_test-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx-shader::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-shader-MinSizeRel-d8b2a7e9ad19c7309bd5.json",
+					"name" : "bgfx-shader",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx-vertexlayout::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-vertexlayout-MinSizeRel-6fd86fd6520e7402204c.json",
+					"name" : "bgfx-vertexlayout",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "webgpu::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-webgpu-MinSizeRel-cb71197c3f77f448a6d7.json",
+					"name" : "webgpu",
+					"projectIndex" : 2
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						8,
+						9
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					],
+					"build" : "external/SDL",
+					"jsonFile" : "directory-external.SDL-MinSizeRel-60e2544b74c73449ca19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/SDL",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : "external/bgfx",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx-MinSizeRel-f79a7038e9ad4ea65f8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/bgfx",
+					"targetIndexes" : 
+					[
+						2,
+						78
+					]
+				},
+				{
+					"build" : "external/bgfx/cmake/bx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bx-MinSizeRel-181b30e85c454bb0f8e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bx",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "external/bgfx/cmake/bimg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bimg-MinSizeRel-d7fcd2bb6f0995605374.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bimg",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						13,
+						75
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"build" : "external/bgfx/cmake/bgfx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bgfx-MinSizeRel-8bfc03b1c0854b827fa7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bgfx",
+					"targetIndexes" : 
+					[
+						10,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						76,
+						77
+					]
+				},
+				{
+					"build" : "external/jolt/Build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.jolt.Build-MinSizeRel-54dd973aaca79a8f46d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/jolt/Build",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Sim_3D",
+					"targetIndexes" : 
+					[
+						1,
+						8,
+						9
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "bgfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "JoltPhysics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-2e689458d2ff5a0d9e50.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-93920bbc3d2cdc8410ee.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@56560e7102e6d55cc240",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-81318b78ac788b57045e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c166e0c501f3cfdf331b",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7cc84f008621db435bb2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Jolt::@c166e0c501f3cfdf331b",
+					"jsonFile" : "target-Jolt-MinSizeRel-7e53eec3090acaaa5fec.json",
+					"name" : "Jolt",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-shared::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3-shared-MinSizeRel-aa0d085c23c80ec48004.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_test-MinSizeRel-584426498d1539236a59.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL_uclibc::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL_uclibc-MinSizeRel-ed59eea072d6b8189669.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sim_3D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sim_3D-MinSizeRel-d8e24475d6e8cfc24a63.json",
+					"name" : "Sim_3D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-d8c82d6b5e8f0c493e86.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-MinSizeRel-11933f48bf73daafcf87.json",
+					"name" : "bgfx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg-MinSizeRel-9846cc684ec89a4188a8.json",
+					"name" : "bimg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_decode::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg_decode-MinSizeRel-d039808d4886964b69e8.json",
+					"name" : "bimg_decode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_encode::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg_encode-MinSizeRel-c88c1f9302efb46411b5.json",
+					"name" : "bimg_encode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bin2c::@2d6c036de2f139b0c8c7",
+					"jsonFile" : "target-bin2c-MinSizeRel-a74b330e26549c5686a8.json",
+					"name" : "bin2c",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bx::@2d6c036de2f139b0c8c7",
+					"jsonFile" : "target-bx-MinSizeRel-96c68ac7f3c57a996b99.json",
+					"name" : "bx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-00-helloworld::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-00-helloworld-MinSizeRel-ccceb6b40a94fe3068e3.json",
+					"name" : "example-00-helloworld",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-01-cubes::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-01-cubes-MinSizeRel-f1f2ed9cc269cbeae212.json",
+					"name" : "example-01-cubes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-02-metaballs::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-02-metaballs-MinSizeRel-b0128c1258cd7e291403.json",
+					"name" : "example-02-metaballs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-03-raymarch::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-03-raymarch-MinSizeRel-bfc0a63d9a5e4fb75a35.json",
+					"name" : "example-03-raymarch",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-04-mesh::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-04-mesh-MinSizeRel-0878ec1932d8accba418.json",
+					"name" : "example-04-mesh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-05-instancing::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-05-instancing-MinSizeRel-242b6db1c67982162872.json",
+					"name" : "example-05-instancing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-06-bump::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-06-bump-MinSizeRel-2c51fbfa3ab028062bae.json",
+					"name" : "example-06-bump",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-07-callback::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-07-callback-MinSizeRel-28fb628a78ad05e21612.json",
+					"name" : "example-07-callback",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-08-update::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-08-update-MinSizeRel-94d6bd88bcce55568989.json",
+					"name" : "example-08-update",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-09-hdr::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-09-hdr-MinSizeRel-540f0e41bd62f072c351.json",
+					"name" : "example-09-hdr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-10-font::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-10-font-MinSizeRel-a59c6e4d0e7b1a34f3bb.json",
+					"name" : "example-10-font",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-11-fontsdf::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-11-fontsdf-MinSizeRel-1bfe27d81684fbeedf29.json",
+					"name" : "example-11-fontsdf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-12-lod::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-12-lod-MinSizeRel-78a1cf677e3a773f3f29.json",
+					"name" : "example-12-lod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-13-stencil::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-13-stencil-MinSizeRel-d6c443948ee5c32f2221.json",
+					"name" : "example-13-stencil",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-14-shadowvolumes::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-14-shadowvolumes-MinSizeRel-115461df7d3b7cb153a8.json",
+					"name" : "example-14-shadowvolumes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-15-shadowmaps-simple::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-15-shadowmaps-simple-MinSizeRel-c6c5a6a3c3601b9c247f.json",
+					"name" : "example-15-shadowmaps-simple",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-16-shadowmaps::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-16-shadowmaps-MinSizeRel-db2a0274f937608b5f4a.json",
+					"name" : "example-16-shadowmaps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-17-drawstress::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-17-drawstress-MinSizeRel-123987315b96eefba3a1.json",
+					"name" : "example-17-drawstress",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-18-ibl::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-18-ibl-MinSizeRel-d4d6c56dc30aaa93a0b4.json",
+					"name" : "example-18-ibl",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-19-oit::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-19-oit-MinSizeRel-c7d02c090cbdf3960699.json",
+					"name" : "example-19-oit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-20-nanovg::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-20-nanovg-MinSizeRel-041665a98380172b6787.json",
+					"name" : "example-20-nanovg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-22-windows::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-22-windows-MinSizeRel-e7e6d8ee727871dfb590.json",
+					"name" : "example-22-windows",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-23-vectordisplay::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-23-vectordisplay-MinSizeRel-aff0050607be94d516e8.json",
+					"name" : "example-23-vectordisplay",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-24-nbody::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-24-nbody-MinSizeRel-bd1cb63406117513b224.json",
+					"name" : "example-24-nbody",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-25-c99::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-25-c99-MinSizeRel-7170e5e3974621eff10d.json",
+					"name" : "example-25-c99",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-26-occlusion::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-26-occlusion-MinSizeRel-e658bed869b3aec842de.json",
+					"name" : "example-26-occlusion",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-27-terrain::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-27-terrain-MinSizeRel-c768a8f35844443279cc.json",
+					"name" : "example-27-terrain",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-28-wireframe::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-28-wireframe-MinSizeRel-50d9fc3d548e0a0d508e.json",
+					"name" : "example-28-wireframe",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-29-debugdraw::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-29-debugdraw-MinSizeRel-df85618360b449349961.json",
+					"name" : "example-29-debugdraw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-30-picking::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-30-picking-MinSizeRel-4880564b0620ba1e006c.json",
+					"name" : "example-30-picking",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-31-rsm::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-31-rsm-MinSizeRel-8c7fb2269a06bbc12542.json",
+					"name" : "example-31-rsm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-32-particles::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-32-particles-MinSizeRel-def8ac4a04e4f4a4aeb0.json",
+					"name" : "example-32-particles",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-33-pom::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-33-pom-MinSizeRel-9f9bd75ae4a5fec8f381.json",
+					"name" : "example-33-pom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-34-mvs::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-34-mvs-MinSizeRel-21d57b2620a8d45dee89.json",
+					"name" : "example-34-mvs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-35-dynamic::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-35-dynamic-MinSizeRel-d98622110674f3c581c3.json",
+					"name" : "example-35-dynamic",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-36-sky::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-36-sky-MinSizeRel-884b9c2058006bb2943a.json",
+					"name" : "example-36-sky",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-38-bloom::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-38-bloom-MinSizeRel-f72d8d726e91c97b392d.json",
+					"name" : "example-38-bloom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-39-assao::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-39-assao-MinSizeRel-2b402fb23e61febe64ef.json",
+					"name" : "example-39-assao",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-40-svt::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-40-svt-MinSizeRel-5831e103022d37ff5aae.json",
+					"name" : "example-40-svt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-42-bunnylod::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-42-bunnylod-MinSizeRel-7f0c149ac576468111ba.json",
+					"name" : "example-42-bunnylod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-43-denoise::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-43-denoise-MinSizeRel-b7afe85df8bd85d986de.json",
+					"name" : "example-43-denoise",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-44-sss::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-44-sss-MinSizeRel-ead64812fda592583a59.json",
+					"name" : "example-44-sss",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-45-bokeh::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-45-bokeh-MinSizeRel-09fb277078a75dd3d00d.json",
+					"name" : "example-45-bokeh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-46-fsr::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-46-fsr-MinSizeRel-46e866a45a253b8d59fc.json",
+					"name" : "example-46-fsr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-47-pixelformats::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-47-pixelformats-MinSizeRel-d9470905f84e255b6437.json",
+					"name" : "example-47-pixelformats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-48-drawindirect::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-48-drawindirect-MinSizeRel-5a1803ce305ce424c5d9.json",
+					"name" : "example-48-drawindirect",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-49-hextile::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-49-hextile-MinSizeRel-95c2c8f8d2859bed56e9.json",
+					"name" : "example-49-hextile",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-50-headless::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-50-headless-MinSizeRel-bccfebb5c9da892e205e.json",
+					"name" : "example-50-headless",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-51-gpufont::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-51-gpufont-MinSizeRel-d0a48a557c11a7fca9e8.json",
+					"name" : "example-51-gpufont",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-common::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-common-MinSizeRel-78dce1653be15a91ef1e.json",
+					"name" : "example-common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "examples::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-examples-MinSizeRel-ddb001092b177dc91016.json",
+					"name" : "examples",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fcpp::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-fcpp-MinSizeRel-931c6937efc6eed92cca.json",
+					"name" : "fcpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryc::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-geometryc-MinSizeRel-11b8915e4ca4b3f4f48f.json",
+					"name" : "geometryc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryv::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-geometryv-MinSizeRel-f222953d12f6d8dddb61.json",
+					"name" : "geometryv",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glsl-optimizer::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-glsl-optimizer-MinSizeRel-b708000b5d659af9dc3f.json",
+					"name" : "glsl-optimizer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glslang::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-glslang-MinSizeRel-feab7a9c0c064ab306d5.json",
+					"name" : "glslang",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "shaderc::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-shaderc-MinSizeRel-15941dfb28768d0030d6.json",
+					"name" : "shaderc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-cross::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-spirv-cross-MinSizeRel-a17c3901361f2f48f239.json",
+					"name" : "spirv-cross",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-opt::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-spirv-opt-MinSizeRel-34bf9639e55f3cbcf0cc.json",
+					"name" : "spirv-opt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "texturec::@0f4537e078a75052a122",
+					"jsonFile" : "target-texturec-MinSizeRel-f5f7fa9f6cc1b630ee8c.json",
+					"name" : "texturec",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "texturev::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-texturev-MinSizeRel-40042cb904b0c954ddcd.json",
+					"name" : "texturev",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tint::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-tint-MinSizeRel-0374b62cc26dc7e72eeb.json",
+					"name" : "tint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tools::@56560e7102e6d55cc240",
+					"jsonFile" : "target-tools-MinSizeRel-4c61c93ff71a521ded45.json",
+					"name" : "tools",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Git::Git::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-Git__Git-RelWithDebInfo-8ae59bf65d5e38491c08.json",
+					"name" : "Git::Git",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Git::Git::@56560e7102e6d55cc240",
+					"jsonFile" : "target-Git__Git-RelWithDebInfo-8382e165f7dde46f0b6c.json",
+					"name" : "Git::Git",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-collector::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3-collector-RelWithDebInfo-0cd954114d3f33f10385.json",
+					"name" : "SDL3-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_Headers::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_Headers-RelWithDebInfo-eea9fdd8a382ed17bacb.json",
+					"name" : "SDL3_Headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test-collector::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_test-collector-RelWithDebInfo-10fb670c087aaadae45d.json",
+					"name" : "SDL3_test-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx-shader::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-shader-RelWithDebInfo-d8b2a7e9ad19c7309bd5.json",
+					"name" : "bgfx-shader",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx-vertexlayout::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-vertexlayout-RelWithDebInfo-6fd86fd6520e7402204c.json",
+					"name" : "bgfx-vertexlayout",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "webgpu::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-webgpu-RelWithDebInfo-cb71197c3f77f448a6d7.json",
+					"name" : "webgpu",
+					"projectIndex" : 2
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						8,
+						9
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					],
+					"build" : "external/SDL",
+					"jsonFile" : "directory-external.SDL-RelWithDebInfo-60e2544b74c73449ca19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/SDL",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : "external/bgfx",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx-RelWithDebInfo-f79a7038e9ad4ea65f8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/bgfx",
+					"targetIndexes" : 
+					[
+						2,
+						78
+					]
+				},
+				{
+					"build" : "external/bgfx/cmake/bx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bx-RelWithDebInfo-ab03e5bc671f0b44299a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bx",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "external/bgfx/cmake/bimg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bimg-RelWithDebInfo-9362d7b3a32d172b2430.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bimg",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						13,
+						75
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"build" : "external/bgfx/cmake/bgfx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bgfx.cmake.bgfx-RelWithDebInfo-fd3c283afb645bb8cf5f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/bgfx/cmake/bgfx",
+					"targetIndexes" : 
+					[
+						10,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						76,
+						77
+					]
+				},
+				{
+					"build" : "external/jolt/Build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.jolt.Build-RelWithDebInfo-5aa816616ecbeab4020f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/jolt/Build",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Sim_3D",
+					"targetIndexes" : 
+					[
+						1,
+						8,
+						9
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "bgfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "JoltPhysics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-2e689458d2ff5a0d9e50.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-93920bbc3d2cdc8410ee.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@56560e7102e6d55cc240",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-81318b78ac788b57045e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c166e0c501f3cfdf331b",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7cc84f008621db435bb2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Jolt::@c166e0c501f3cfdf331b",
+					"jsonFile" : "target-Jolt-RelWithDebInfo-2e7ab4ba16f9b5d432ab.json",
+					"name" : "Jolt",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-shared::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3-shared-RelWithDebInfo-45f4cf712747ce9ecedb.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL3_test-RelWithDebInfo-0ba3517796fd5612d310.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL_uclibc::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL_uclibc-RelWithDebInfo-a7dd9c0693fb726c1b77.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sim_3D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sim_3D-RelWithDebInfo-1ba21549cee7f80f1287.json",
+					"name" : "Sim_3D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-d8c82d6b5e8f0c493e86.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-bgfx-RelWithDebInfo-909e9d08c5e0d6fc9737.json",
+					"name" : "bgfx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg-RelWithDebInfo-797db98512a591e10874.json",
+					"name" : "bimg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_decode::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg_decode-RelWithDebInfo-a6bee5ba381f53be36ea.json",
+					"name" : "bimg_decode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_encode::@0f4537e078a75052a122",
+					"jsonFile" : "target-bimg_encode-RelWithDebInfo-887da3c58db3dd593e82.json",
+					"name" : "bimg_encode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bin2c::@2d6c036de2f139b0c8c7",
+					"jsonFile" : "target-bin2c-RelWithDebInfo-1087ebecb67f79adfabe.json",
+					"name" : "bin2c",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bx::@2d6c036de2f139b0c8c7",
+					"jsonFile" : "target-bx-RelWithDebInfo-b1c4fac0c3004fa33484.json",
+					"name" : "bx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-00-helloworld::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-00-helloworld-RelWithDebInfo-4afd960e9704ce60de6e.json",
+					"name" : "example-00-helloworld",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-01-cubes::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-01-cubes-RelWithDebInfo-445b7c2ec3af8fcf257d.json",
+					"name" : "example-01-cubes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-02-metaballs::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-02-metaballs-RelWithDebInfo-168c0b5338fdd3868db9.json",
+					"name" : "example-02-metaballs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-03-raymarch::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-03-raymarch-RelWithDebInfo-990f67a7a4b818e8d98c.json",
+					"name" : "example-03-raymarch",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-04-mesh::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-04-mesh-RelWithDebInfo-f8334a52213e35a4319a.json",
+					"name" : "example-04-mesh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-05-instancing::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-05-instancing-RelWithDebInfo-b6bd9a4d2d8fe5ca2640.json",
+					"name" : "example-05-instancing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-06-bump::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-06-bump-RelWithDebInfo-4f92f09705e66b8fb427.json",
+					"name" : "example-06-bump",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-07-callback::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-07-callback-RelWithDebInfo-0a0542437a6bd6a182bb.json",
+					"name" : "example-07-callback",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-08-update::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-08-update-RelWithDebInfo-015c01cf06a9ace9fc83.json",
+					"name" : "example-08-update",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-09-hdr::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-09-hdr-RelWithDebInfo-a8e7c2f643c28a10eb51.json",
+					"name" : "example-09-hdr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-10-font::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-10-font-RelWithDebInfo-150669cdcaaa268f388d.json",
+					"name" : "example-10-font",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-11-fontsdf::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-11-fontsdf-RelWithDebInfo-3db725443ecbc6673f17.json",
+					"name" : "example-11-fontsdf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-12-lod::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-12-lod-RelWithDebInfo-858f35b803c67d260373.json",
+					"name" : "example-12-lod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-13-stencil::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-13-stencil-RelWithDebInfo-3958ffff6f33eeca9794.json",
+					"name" : "example-13-stencil",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-14-shadowvolumes::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-14-shadowvolumes-RelWithDebInfo-481c3c3e93e9c01b7191.json",
+					"name" : "example-14-shadowvolumes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-15-shadowmaps-simple::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-15-shadowmaps-simple-RelWithDebInfo-290773c9207815c90ce8.json",
+					"name" : "example-15-shadowmaps-simple",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-16-shadowmaps::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-16-shadowmaps-RelWithDebInfo-a8a8b1ad72c8c3213c79.json",
+					"name" : "example-16-shadowmaps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-17-drawstress::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-17-drawstress-RelWithDebInfo-5452f2143d8b88e82be0.json",
+					"name" : "example-17-drawstress",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-18-ibl::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-18-ibl-RelWithDebInfo-1c421ac889e9d96e61f7.json",
+					"name" : "example-18-ibl",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-19-oit::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-19-oit-RelWithDebInfo-4acb94b6844586755572.json",
+					"name" : "example-19-oit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-20-nanovg::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-20-nanovg-RelWithDebInfo-ec0b0efb6ac62380b29b.json",
+					"name" : "example-20-nanovg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-22-windows::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-22-windows-RelWithDebInfo-fa963a6f4804fdbd360b.json",
+					"name" : "example-22-windows",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-23-vectordisplay::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-23-vectordisplay-RelWithDebInfo-2850a30be19d0218d3a4.json",
+					"name" : "example-23-vectordisplay",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-24-nbody::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-24-nbody-RelWithDebInfo-a33cf752aef450377f65.json",
+					"name" : "example-24-nbody",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-25-c99::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-25-c99-RelWithDebInfo-55425f0cdb022c55e24d.json",
+					"name" : "example-25-c99",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-26-occlusion::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-26-occlusion-RelWithDebInfo-cbf2f685aed93439ae28.json",
+					"name" : "example-26-occlusion",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-27-terrain::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-27-terrain-RelWithDebInfo-6bce2efe800edc15aee3.json",
+					"name" : "example-27-terrain",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-28-wireframe::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-28-wireframe-RelWithDebInfo-4231abe42b932f7c0ada.json",
+					"name" : "example-28-wireframe",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-29-debugdraw::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-29-debugdraw-RelWithDebInfo-d4de3e0f2ae3b7c58bfe.json",
+					"name" : "example-29-debugdraw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-30-picking::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-30-picking-RelWithDebInfo-41bab86f2a3f597b43b2.json",
+					"name" : "example-30-picking",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-31-rsm::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-31-rsm-RelWithDebInfo-e8732914749c2f9f5c8f.json",
+					"name" : "example-31-rsm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-32-particles::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-32-particles-RelWithDebInfo-13fd6d8c790877913f56.json",
+					"name" : "example-32-particles",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-33-pom::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-33-pom-RelWithDebInfo-6922fdd6ab659011033b.json",
+					"name" : "example-33-pom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-34-mvs::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-34-mvs-RelWithDebInfo-397b0654d3d5723830fb.json",
+					"name" : "example-34-mvs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-35-dynamic::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-35-dynamic-RelWithDebInfo-982a919a554cea9f4415.json",
+					"name" : "example-35-dynamic",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-36-sky::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-36-sky-RelWithDebInfo-e352eb2b5407f3f3f9eb.json",
+					"name" : "example-36-sky",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-38-bloom::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-38-bloom-RelWithDebInfo-bc7e87962b88635a60dd.json",
+					"name" : "example-38-bloom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-39-assao::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-39-assao-RelWithDebInfo-a5ff5fefb8d4173b774c.json",
+					"name" : "example-39-assao",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-40-svt::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-40-svt-RelWithDebInfo-e4f931d4d5f198c64c54.json",
+					"name" : "example-40-svt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-42-bunnylod::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-42-bunnylod-RelWithDebInfo-ecb3325f5b542d4abacb.json",
+					"name" : "example-42-bunnylod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-43-denoise::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-43-denoise-RelWithDebInfo-e88432ae093cd7ab6b8c.json",
+					"name" : "example-43-denoise",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-44-sss::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-44-sss-RelWithDebInfo-2c867e356b86c93722c1.json",
+					"name" : "example-44-sss",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-45-bokeh::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-45-bokeh-RelWithDebInfo-93bca533ce79395c5e7f.json",
+					"name" : "example-45-bokeh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-46-fsr::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-46-fsr-RelWithDebInfo-9129c86f9db6afc5d488.json",
+					"name" : "example-46-fsr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-47-pixelformats::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-47-pixelformats-RelWithDebInfo-e8565296428d4d71f82c.json",
+					"name" : "example-47-pixelformats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-48-drawindirect::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-48-drawindirect-RelWithDebInfo-a397575b213618cb9146.json",
+					"name" : "example-48-drawindirect",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-49-hextile::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-49-hextile-RelWithDebInfo-e3fe04c1b4b2dad4cdcf.json",
+					"name" : "example-49-hextile",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-50-headless::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-50-headless-RelWithDebInfo-2febbd59b77cd7cecba7.json",
+					"name" : "example-50-headless",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-51-gpufont::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-51-gpufont-RelWithDebInfo-ce3fbe46aaf3a513c4d9.json",
+					"name" : "example-51-gpufont",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-common::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-example-common-RelWithDebInfo-8794d9a4601b5216c762.json",
+					"name" : "example-common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "examples::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-examples-RelWithDebInfo-ddb001092b177dc91016.json",
+					"name" : "examples",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fcpp::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-fcpp-RelWithDebInfo-6c9fe4ea7182f27ea102.json",
+					"name" : "fcpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryc::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-geometryc-RelWithDebInfo-41be768dbb4bd10563ae.json",
+					"name" : "geometryc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryv::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-geometryv-RelWithDebInfo-3c200a3635c29b466d55.json",
+					"name" : "geometryv",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glsl-optimizer::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-glsl-optimizer-RelWithDebInfo-6f3f679cc1d198a3be5c.json",
+					"name" : "glsl-optimizer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glslang::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-glslang-RelWithDebInfo-0e91b40e6aecd9572a97.json",
+					"name" : "glslang",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "shaderc::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-shaderc-RelWithDebInfo-5569222b0105c744b7a9.json",
+					"name" : "shaderc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-cross::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-spirv-cross-RelWithDebInfo-00569970bef6b5e093d7.json",
+					"name" : "spirv-cross",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-opt::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-spirv-opt-RelWithDebInfo-442a567aabf471385a27.json",
+					"name" : "spirv-opt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "texturec::@0f4537e078a75052a122",
+					"jsonFile" : "target-texturec-RelWithDebInfo-8f995f82ae1d4a83bd6c.json",
+					"name" : "texturec",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "texturev::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-texturev-RelWithDebInfo-36082b2be3ad4a8f363b.json",
+					"name" : "texturev",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tint::@cb45d42a8ebc12a1f1e3",
+					"jsonFile" : "target-tint-RelWithDebInfo-ed393c0c60faec46772b.json",
+					"name" : "tint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tools::@56560e7102e6d55cc240",
+					"jsonFile" : "target-tools-RelWithDebInfo-4c61c93ff71a521ded45.json",
+					"name" : "tools",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Sim_3D/build",
+		"source" : "C:/Sim_3D"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

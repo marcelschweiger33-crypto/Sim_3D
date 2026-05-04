@@ -1,0 +1,399 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "external/bgfx/cmake/bgfx/MinSizeRel/geometryv.exe"
+		},
+		{
+			"path" : "external/bgfx/cmake/bgfx/MinSizeRel/geometryv.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"install",
+			"target_link_libraries",
+			"add_example",
+			"add_compile_options"
+		],
+		"files" : 
+		[
+			"external/bgfx/cmake/bgfx/geometryv.cmake",
+			"external/bgfx/cmake/bgfx/CMakeLists.txt",
+			"external/bgfx/cmake/bgfx/examples.cmake",
+			"external/bgfx/cmake/bx/bx.cmake",
+			"external/bgfx/cmake/bx/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 284,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 142,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 11,
+				"parent" : 10
+			},
+			{
+				"file" : 3,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 104,
+				"parent" : 12
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 9,
+				"parent" : 14
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "example-common::@cb45d42a8ebc12a1f1e3"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -std:c++20 -MD"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "/Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "/Zc:preprocessor"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BGFX_CONFIG_DEBUG_ANNOTATION=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BGFX_CONFIG_MULTITHREADED=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BX_CONFIG_DEBUG=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Sim_3D/external/bgfx/bgfx/examples/common"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Sim_3D/external/bgfx/bgfx/3rdparty"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Sim_3D/external/bgfx/bgfx/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Sim_3D/external/bgfx/bx/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Sim_3D/external/bgfx/bx/3rdparty"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Sim_3D/external/bgfx/bx/include/compat/msvc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Sim_3D/external/bgfx/bimg/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "bx::@2d6c036de2f139b0c8c7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "bimg_decode::@0f4537e078a75052a122"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "bimg::@0f4537e078a75052a122"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "bgfx::@cb45d42a8ebc12a1f1e3"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "example-common::@cb45d42a8ebc12a1f1e3"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx/tools"
+	},
+	"id" : "geometryv::@cb45d42a8ebc12a1f1e3",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/Sim_3D"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -MD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "MinSizeRel\\example-common.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "MinSizeRel\\bgfx.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\bimg\\MinSizeRel\\bimg.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\bimg\\MinSizeRel\\bimg_decode.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\bx\\MinSizeRel\\bx.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "psapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "example-common::@cb45d42a8ebc12a1f1e3"
+		}
+	],
+	"name" : "geometryv",
+	"nameOnDisk" : "geometryv.exe",
+	"paths" : 
+	{
+		"build" : "external/bgfx/cmake/bgfx",
+		"source" : "external/bgfx/cmake/bgfx"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				5
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				6
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/tools/geometryv/fs_mesh.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/tools/geometryv/fs_mesh.sc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/bgfx/bgfx/tools/geometryv/geometryv.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/tools/geometryv/makefile",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/tools/geometryv/varying.def.sc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/tools/geometryv/vs_mesh.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/bgfx/bgfx/tools/geometryv/vs_mesh.sc",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
