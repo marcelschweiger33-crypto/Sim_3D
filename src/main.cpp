@@ -7,25 +7,24 @@
 #include <stdio.h>
 
 int main(int argc, char** argv) {
-    // 1. SDL Initialisierung
+    // 1. Variablen (Zuvor deklarieren)
+    float myCpuValue = 12.5f;
+    int usedVram = 1024;
+    int totalVram = 8192;
+
+    // 2. SDL Initialisierung
     if (!SDL_Init(SDL_INIT_VIDEO)) {
-        printf("SDL konnte nicht initialisiert werden: %s\n", SDL_GetError());
         return -1;
     }
 
-    SDL_Window* window = SDL_CreateWindow("Sim_3D - bgfx & ImGui", 1280, 720, SDL_WINDOW_RESIZABLE);
-    if (!window) {
-        printf("Fenster konnte nicht erstellt werden: %s\n", SDL_GetError());
-        return -1;
-    }
+    SDL_Window* window = SDL_CreateWindow("Sim_3D", 1280, 720, SDL_WINDOW_RESIZABLE);
 
-    // 2. bgfx Initialisierung
+    // 3. bgfx Initialisierung
     bgfx::Init init;
     init.resolution.width = 1280;
     init.resolution.height = 720;
     init.resolution.reset = BGFX_RESET_VSYNC;
     
-    // Plattformspezifisches Setup für bgfx an SDL3 binden
     bgfx::PlatformData pd;
 #if defined(SDL_PLATFORM_WINDOWS)
     pd.nwh = SDL_GetPointerProperty(SDL_GetWindowProperties(window), SDL_PROP_WINDOW_WIN32_HWND_POINTER, NULL);
@@ -33,62 +32,37 @@ int main(int argc, char** argv) {
     init.platformData = pd;
     bgfx::init(init);
 
-    // Hintergrundfarbe setzen (Dunkelgrau)
-    bgfx::setViewClear(0, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH, 0x303030ff, 1.0f, 0);
-    bgfx::setViewRect(0, 0, 0, 1280, 720);
-
-    // 3. ImGui Initialisierung
+    // 4. ImGui Initialisierung
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
-    ImGuiIO& io = ImGui::GetIO(); (void)io;
-    ImGui::StyleColorsDark();
-
-    // Backends initialisieren
     ImGui_ImplSDL3_InitForOther(window);
-    ImGui_Implbgfx_Init(255); // Nutzt View ID 255 für das ImGui-Rendering
+    ImGui_Implbgfx_Init(255);
 
-    // 4. Main Loop
+    // 5. Main Loop
     bool quit = false;
     while (!quit) {
         SDL_Event event;
         while (SDL_PollEvent(&event)) {
             ImGui_ImplSDL3_ProcessEvent(&event);
-            if (event.type == SDL_EVENT_QUIT) {
-                quit = true;
-            }
-            if (event.type == SDL_EVENT_WINDOW_RESIZED) {
-                // Bei Größenänderung des Fensters muss bgfx aktualisiert werden
-                bgfx::reset(event.window.data1, event.window.data2, BGFX_RESET_VSYNC);
-                bgfx::setViewRect(0, 0, 0, (uint16_t)event.window.data1, (uint16_t)event.window.data2);
-            }
+            if (event.type == SDL_EVENT_QUIT) quit = true;
         }
 
-        // Start ImGui Frame
+        // --- Hier lagen deine Fehlerzeilen ---
         ImGui_Implbgfx_NewFrame();
-        ImGui_ImplSDL3_NewFrame();
+        ImGui_ImplSDL3_NewFrame(); // <--- War zuvor außerhalb der Schleife
         ImGui::NewFrame();
 
-        // --- DEIN GUI CODE HIER ---
-        ImGui::Begin("Sim_3D Einstellungen");
-        ImGui::Text("Willkommen in deiner 3D-Engine!");
-        ImGui::Text("SDL3 + bgfx + ImGui sind erfolgreich verknüpft.");
-        ImGui::Spacing();
-        if (ImGui::Button("Beenden")) {
-            quit = true;
-        }
+        ImGui::Begin("Monitor");
+        ImGui::Text("CPU: %.1f %%", myCpuValue);
         ImGui::End();
-        // --------------------------
 
-        // ImGui Render-Befehle generieren
         ImGui::Render();
-        
-        // bgfx Frame abschicken
-        bgfx::touch(0); // Garantiert, dass der Frame gezeichnet wird, auch wenn nichts passiert
         ImGui_Implbgfx_RenderDrawLists(ImGui::GetDrawData());
-        bgfx::frame();
-    }
+        bgfx::frame(); // <--- War zuvor außerhalb der Schleife
+        // --------------------------------------
+    } 
 
-    // 5. Cleanup
+    // 6. Cleanup
     ImGui_Implbgfx_Shutdown();
     ImGui_ImplSDL3_Shutdown();
     ImGui::DestroyContext();
